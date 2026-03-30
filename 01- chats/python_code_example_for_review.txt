@@ -1,0 +1,50 @@
+def reverse_num(n):
+    rev = 0
+    while n > 0:
+        rev = rev * 10 + (n % 10)
+        n //= 10
+    return rev
+
+
+def digit_count(n):
+    count = 0
+    while n > 0:
+        count += 1
+        n //= 10
+    return count
+
+
+def is_mirror_pair(a, b):
+    if a <= 0 or b <= 0:
+        return False
+    return reverse_num(a) == b and digit_count(a) == digit_count(b)
+
+
+def is_mirror_list(numbers):
+    left = 0
+    right = len(numbers) - 1
+
+    while left <= right:
+        if not is_mirror_pair(numbers[left], numbers[right]):
+            return False
+        left += 1
+        right -= 1
+
+    return True
+
+
+def main():
+    lst1 = [321, 121, 54, 45, 121, 123]
+    lst2 = [321, 121, 54, 45, 123, 123]
+    lst3 = [321, -123, 54, 45, 123, 123]
+    lst4 = [121, 34, 43]          
+    lst5 = [10, 1]            
+    print(is_mirror_list(lst1))  
+    print(is_mirror_list(lst2))  
+    print(is_mirror_list(lst3))  
+    print(is_mirror_list(lst4))  
+    print(is_mirror_list(lst5))  
+
+
+if __name__ == "__main__":
+    main()
