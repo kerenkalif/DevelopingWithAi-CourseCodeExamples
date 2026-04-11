@@ -2,7 +2,7 @@ import requests
 
 # 🔧 הגדרות Ollama
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL = "llama3"  # אפשר לשנות ל-phi3 אם מחשבים חלשים
+MODEL = "llama3"  # for weaker pc can use he model 'phi3'
 
 
 def extract_root_cause(error: Exception) -> str:

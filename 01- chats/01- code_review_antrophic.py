@@ -1,8 +1,8 @@
-from secret_key import antropic_key
+from secret_key import anthropic_key
 from anthropic import Anthropic
 import sys
 
-client = Anthropic(api_key=antropic_key)
+client = Anthropic(api_key=anthropic_key)
 
 messages = []
 with open("role_python_final_code_review.txt", "r", encoding="utf-8") as f:

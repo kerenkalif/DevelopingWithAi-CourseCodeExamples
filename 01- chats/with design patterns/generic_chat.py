@@ -43,10 +43,10 @@ class OpenAIProvider(LLMProvider):
 # ===============================
 class AnthropicProvider(LLMProvider):
     def __init__(self):
-        from secret_key import antropic_key
+        from secret_key import anthropic_key
         from anthropic import Anthropic
 
-        self.client = Anthropic(api_key=antropic_key)
+        self.client = Anthropic(api_key=anthropic_key)
         self.model = "claude-sonnet-4-6"
 
     def send_message(self, messages, role):

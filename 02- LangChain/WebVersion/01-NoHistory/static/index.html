@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>General Assistant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 0 20px;
+      background: #f5f5f5;
+    }
+    h1 { color: #009688; }
+    label { font-weight: bold; display: block; margin-top: 16px; }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 20px;
+      background: #009688;
+      color: white;
+      border: none;
+      padding: 12px 28px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover { background: #00796b; }
+    #answer-box {
+      margin-top: 30px;
+      background: white;
+      border-right: 4px solid #009688;
+      padding: 16px;
+      border-radius: 6px;
+      font-size: 16px;
+      line-height: 1.6;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>General Assistant</h1>
+
+  <label for="role">תפקיד ה-assistant</label>
+  <input id="role" type="text" placeholder="לדוגמה: You are a pastry expert" />
+
+  <label for="question">שאלה</label>
+  <textarea id="question" rows="3" placeholder="מה תרצה לשאול?"></textarea>
+
+  <button onclick="askAssistant()">שאל</button>
+
+  <div id="answer-box"></div>
+
+  <script>
+    async function askAssistant() {
+      const role     = document.getElementById("role").value.trim();
+      const question = document.getElementById("question").value.trim();
+      const box      = document.getElementById("answer-box");
+
+      if (!role || !question) {
+        alert("נא למלא גם תפקיד וגם שאלה");
+        return;
+      }
+
+      box.style.display = "block";
+      box.textContent   = "טוען...";
+
+      const response = await fetch("/ask", {
+        method:  "POST",
+        headers: { "Content-Type": "application/json" },
+        body:    JSON.stringify({ role, question })
+      });
+
+      const data = await response.json();
+      box.textContent = data.answer ?? data.detail ?? "שגיאה";
+    }
+  </script>
+</body>
+</html>

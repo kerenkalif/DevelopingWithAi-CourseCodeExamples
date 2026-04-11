@@ -3,9 +3,7 @@ from google import genai
 from google.genai.errors import ClientError
 
 client = genai.Client(api_key=gemini_key)
-for model in client.models.list():
-    print(model.name)
-model="gemini-2.0-flash"
+model="gemini-2.5-flash"
 
 def extract_root_cause(error: Exception) -> str:
     msg = str(error)
@@ -60,7 +58,7 @@ Do NOT include the solution.
         exit()
 
     question = result["data"]
-
+    return question
 
 def evaluate_solution(question, student_code):
     ask_for_review_prompt = f"""
@@ -103,4 +101,7 @@ student_code = "\n".join(lines)
 feedback = evaluate_solution(question, student_code)
 
 print("\n--- Feedback ---\n")
-print(feedback)
+if feedback["ok"]:
+    print(feedback["data"])
+else:
+    print(feedback["error"])

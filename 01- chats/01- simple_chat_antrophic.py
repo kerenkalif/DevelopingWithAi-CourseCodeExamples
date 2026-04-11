@@ -1,7 +1,7 @@
-from secret_key import antropic_key
+from secret_key import anthropic_key
 from anthropic import Anthropic
 
-client = Anthropic(api_key=antropic_key)
+client = Anthropic(api_key=anthropic_key)
 
 messages = []
 role_str = input("What role do you want to give the ai? ")
