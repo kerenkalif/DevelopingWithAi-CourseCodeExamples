@@ -1,12 +1,11 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from secret_key import open_ai_key
 from openai import OpenAI
 
 app = Flask(__name__)
 CORS(app)
 
-client = OpenAI(api_key=open_ai_key)
+client = OpenAI()
 
 # Dictionary to store conversations per user
 conversations = {}

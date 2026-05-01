@@ -1,13 +1,12 @@
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS
-from secret_key import open_ai_key
 from openai import OpenAI
 
 app = Flask(__name__)
 app.secret_key = 'your-secret-key-change-this-in-production'  # Required for sessions
 CORS(app, supports_credentials=True)  # Important: allow credentials for sessions
 
-client = OpenAI(api_key=open_ai_key)
+client = OpenAI()
 
 @app.route('/set_role', methods=['POST'])
 def set_role():

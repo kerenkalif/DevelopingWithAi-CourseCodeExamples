@@ -7,7 +7,7 @@ class Point:
         return f"({self.x}, {self.y})"
 
     def add(self, other):
-        print(f"DEBUG: adding {self} to {other}")
+        print(f"DEBUG: adding {self} with {other}")
         return Point(self.x + other.x, self.y + other.y)
 
 p1 = Point(1, 2)

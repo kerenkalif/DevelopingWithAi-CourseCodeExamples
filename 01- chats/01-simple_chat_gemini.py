@@ -1,19 +1,17 @@
-from secret_key import gemini_key
 from google import genai
 from google.genai import types
 
-client = genai.Client(api_key=gemini_key)
-model = "gemini-2.5-flash"
+client = genai.Client()
 
-messages = []
 role_str = input("What role do you want to give the ai? ")
 chat = client.chats.create(
-        model=model,
+        model="gemini-2.5-flash",
         config=types.GenerateContentConfig(
             system_instruction=role_str
         )
     )
 
+#messages = []
 while True:
     user_input = input("Enter your request: ")
     resp = chat.send_message(user_input)

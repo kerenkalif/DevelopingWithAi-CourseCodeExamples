@@ -1,7 +1,6 @@
-from secret_key import open_ai_key
 from openai import OpenAI
 
-client = OpenAI(api_key=open_ai_key)
+client = OpenAI()
 
 messages = []
 role_str = input("What role do you want to give the ai? ")

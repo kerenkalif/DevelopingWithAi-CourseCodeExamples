@@ -1,8 +1,7 @@
-from secret_key import gemini_key
 from google import genai
 from google.genai.errors import ClientError
 
-client = genai.Client(api_key=gemini_key)
+client = genai.Client()
 model="gemini-2.5-flash"
 
 def extract_root_cause(error: Exception) -> str:

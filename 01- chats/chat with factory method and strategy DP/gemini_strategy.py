@@ -1,11 +1,10 @@
-from secret_key import gemini_key
 from google import genai
 from google.genai import types
 from llm_strategy import LLMStrategy, LLMResponse
 
 class GeminiStrategy(LLMStrategy):
     def __init__(self):
-        self.client = genai.Client(api_key=gemini_key)
+        self.client = genai.Client()
         self.model = "gemini-2.5-flash"
         self.chat = None
     def set_system_role(self, role: str) -> None:

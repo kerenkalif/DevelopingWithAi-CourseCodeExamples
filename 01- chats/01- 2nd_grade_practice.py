@@ -1,7 +1,6 @@
-from secret_key import anthropic_key
 from anthropic import Anthropic
 
-client = Anthropic(api_key=anthropic_key)
+client = Anthropic()
 
 with open("role_2nd_grade_math_teacher.txt", "r", encoding="utf-8") as f:
     role_str = f.read()

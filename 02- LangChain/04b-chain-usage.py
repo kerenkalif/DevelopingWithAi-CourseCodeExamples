@@ -2,7 +2,6 @@ from langchain_anthropic import ChatAnthropic
 from langchain_core.messages import HumanMessage
 from langchain_core.output_parsers import PydanticOutputParser
 from pydantic import BaseModel
-from secret_key import anthropic_key
 
 class Cake(BaseModel):
     name:        str
@@ -10,7 +9,7 @@ class Cake(BaseModel):
     is_dairy:    bool
     price:       float
 
-llm = ChatAnthropic(model="claude-haiku-4-5-20251001", api_key=anthropic_key)
+llm = ChatAnthropic(model="claude-haiku-4-5-20251001")
 parser = PydanticOutputParser(pydantic_object=Cake)
 
 chain = llm | parser

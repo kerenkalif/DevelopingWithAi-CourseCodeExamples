@@ -1,11 +1,10 @@
-from secret_key import anthropic_key
 from config import anthropic_model
 from langchain_anthropic import ChatAnthropic
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 
-llm = ChatAnthropic(model=anthropic_model, api_key=anthropic_key)
+llm = ChatAnthropic(model=anthropic_model)
 
 prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a useful assistant."),
@@ -33,7 +32,7 @@ chain_with_history = RunnableWithMessageHistory(
 config = {"configurable": {"session_id": "user_1"}}
 
 response = chain_with_history.invoke(
-    {"input": "My name is Keren. What is you name?"},
+    {"input": "My name is Keren. What is your name?"},
     config=config
 )
 print(response.content)
@@ -42,5 +41,4 @@ response = chain_with_history.invoke(
     {"input": "What is my name?"},
     config=config
 )
-print(response.content)
-# "שמך דנה." ← זוכר!
+print(response.content) # should be 'Keren'

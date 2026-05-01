@@ -1,11 +1,10 @@
-from secret_key import anthropic_key
 from anthropic import Anthropic
 from llm_strategy import LLMStrategy, LLMResponse
 
 class AnthropicStrategy(LLMStrategy):
 
     def __init__(self):
-        self.client = Anthropic(api_key=anthropic_key)
+        self.client = Anthropic()
         self.messages = []
         self.system_role = ""
 

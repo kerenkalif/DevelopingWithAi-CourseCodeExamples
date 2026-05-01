@@ -2,7 +2,7 @@ from llm_strategy import LLMStrategy
 from anthropic_strategy import AnthropicStrategy
 from openai_strategy import OpenAIStrategy
 from gemini_strategy import GeminiStrategy
-#from ollama_strategy import OllamaStrategy
+from ollama_strategy import OllamaStrategy
 
 
 class LLMClientFactory:
@@ -11,7 +11,7 @@ class LLMClientFactory:
         "anthropic": AnthropicStrategy,
         "openai": OpenAIStrategy,
         "gemini": GeminiStrategy,
-        #"ollama": OllamaStrategy,
+        "ollama": OllamaStrategy,
     }
 
     @staticmethod

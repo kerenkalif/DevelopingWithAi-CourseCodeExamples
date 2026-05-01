@@ -1,4 +1,3 @@
-from secret_key import open_ai_key
 from openai import OpenAI
 from llm_strategy import LLMStrategy, LLMResponse
 
@@ -6,7 +5,7 @@ from llm_strategy import LLMStrategy, LLMResponse
 class OpenAIStrategy(LLMStrategy):
 
     def __init__(self):
-        self.client = OpenAI(api_key=open_ai_key)
+        self.client = OpenAI()
         self.messages = []
 
     def set_system_role(self, role: str) -> None:
