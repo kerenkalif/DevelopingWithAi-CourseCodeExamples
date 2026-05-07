@@ -1,11 +1,8 @@
 import requests
-from mcp.server.fastmcp import FastMCP
-from anthropic import Anthropic
+from langchain_anthropic import ChatAnthropic
+from langchain_core.tools import tool
 
-# creating the MCP server
-mcp = FastMCP("WeatherService")
-
-@mcp.tool()
+@tool
 def get_current_location():
     '''returns user current geographic location according to its ip'''
     try:
@@ -21,7 +18,7 @@ def get_current_location():
     except Exception as e:
         return f"Error detecting location: {e}"
     
-@mcp.tool()
+@tool
 def get_coordinates(city_name: str, country_name: str = ""):
     '''  gets city name and country, and returns its coordinates '''
     try:
@@ -45,7 +42,7 @@ def get_coordinates(city_name: str, country_name: str = ""):
     except Exception as e:
         return f"Error connecting to geocoding service: {e}"
     
-@mcp.tool()
+@tool
 def get_weather_in_location(lat: float, lon: float) -> float:
     '''returns current temperature according to coordinate'''
     try:
@@ -56,27 +53,45 @@ def get_weather_in_location(lat: float, lon: float) -> float:
     except Exception as e:
         return f"Error fetching weather: {e}"
     
+tools_list = [get_current_location, get_coordinates, get_weather_in_location]
+llm = ChatAnthropic(model="claude-sonnet-4-5")
+llm_with_tools = llm.bind_tools(tools_list)
 
-if __name__ == "__main__":
-    #mcp.run()
-    mcp.run(transport='sse')
+tool_impls = {
+    "get_current_location":    get_current_location,
+    "get_coordinates":         get_coordinates,
+    "get_weather_in_location": get_weather_in_location,
+}
+tool_impls = {t.name: t for t in tools_list}
 
-    client = Anthropic()
 
-    test_prompts = ["what is the temperature at my place?",
-                    "how warm is it in London right now?",
-                    "compare the temperature in Tel Aviv and Paris",
+def run_with_tools(user_message: str) -> str:
+
+    messages = [{"role": "user", "content": user_message}]
+    while True:
+        response = llm_with_tools.invoke(messages)
+        if not response.tool_calls:
+            return response.content
+
+        messages.append(response)
+        for tc in response.tool_calls:
+            #result = tool_impls[tc["name"]](**tc["args"])
+            result = tool_impls[tc["name"]].invoke(tc["args"])
+            messages.append({
+                "role":         "tool",
+                "tool_call_id": tc["id"],
+                "content":      str(result),
+            })
+
+# ============================================================
+# 5. Try it
+# ============================================================
+test_prompts = ["what is the temperature at my place?",
+                  #  "how warm is it in London right now?",
+                  #  "compare the temperature in Tel Aviv and Paris",
                    ]
-    
-    for prompt in test_prompts:
-        print(f"Prompt --> {prompt}")
-        messages = [{"role": "user", "content": prompt}]
 
-        response = client.messages.create(
-            model="claude-sonnet-4-5",
-            max_tokens=1024,
-            messages=messages,
-        )
-        print(f"LLM --> {response.content[0].text}")
-
-    
+for prompt in test_prompts:
+    print(f"User: {prompt}")
+    print(f"LLM: {run_with_tools(prompt)}")
+    print()

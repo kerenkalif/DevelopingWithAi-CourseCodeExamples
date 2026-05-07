@@ -1,10 +1,5 @@
 import requests
-#from langchain_anthropic import ChatAnthropic
 from anthropic import Anthropic
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnableLambda
-
 def get_current_location():
     '''returns user current geographic location according to its ip'''
     try:
@@ -132,8 +127,12 @@ def run_with_tools(user_message: str) -> str:
 # ============================================================
 # 5. Try it
 # ============================================================
-print(run_with_tools("what is the temperature at my place?"))
-print()
-print(run_with_tools("how warm is it in London right now?"))
-print()
-print(run_with_tools("compare the temperature in Tel Aviv and Paris"))
+test_prompts = ["what is the temperature at my place?",
+                  #  "how warm is it in London right now?",
+                  #  "compare the temperature in Tel Aviv and Paris",
+                   ]
+
+for prompt in test_prompts:
+    print(f"User: {prompt}")
+    print(f"LLM: {run_with_tools(prompt)}")
+    print()
