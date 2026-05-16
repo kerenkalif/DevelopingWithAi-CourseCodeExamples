@@ -15,4 +15,5 @@ def ask_assistant(role: str, question: str, history: list[dict]) -> str:
 
     messages.append(HumanMessage(content=question))
 
-    return parser.invoke(llm.invoke(messages))
+    chain = llm | parser
+    return chain.invoke(messages)
