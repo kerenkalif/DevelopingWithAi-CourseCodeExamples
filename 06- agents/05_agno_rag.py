@@ -28,7 +28,7 @@ knowledge = Knowledge(
     )
 )
 
-if not os.path.exists("tmp/lancedb/flight_schedule.lance"):
+if not os.path.exists("tmp/lancedb/travel_guide.lance"):
     knowledge.insert(path="travel_guide.pdf")
 
 agent = Agent(
