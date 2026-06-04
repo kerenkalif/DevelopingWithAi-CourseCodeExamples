@@ -1,0 +1,15 @@
+[    5693ms] [ERROR] Mixed Content: The page at 'https://www.drushim.co.il/' was loaded over HTTPS, but requested an insecure manifest 'http://www.drushim.co.il/site.webmanifest/'. This request has been blocked; the content must be served over HTTPS. @ https://www.drushim.co.il/:0
+[    6057ms] [WARNING] [GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202605180101/pubads_impl.js:18
+[    6129ms] [INFO] %cGroup107 Accessibility 05/10/25 16:00 color:#51828A; font-weight:bold; @ :41
+[    6913ms] [ERROR] Mixed Content: The page at 'https://www.drushim.co.il/' was loaded over HTTPS, but requested an insecure manifest 'http://www.drushim.co.il/site.webmanifest/'. This request has been blocked; the content must be served over HTTPS. @ https://www.drushim.co.il/:0
+[    7703ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7720ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7726ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7733ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7740ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7746ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7757ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    7762ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    8138ms] [LOG] Fetching Google Sheet in transparent bubble. @ :33
+[    8953ms] [LOG] Data loaded and stored in transparent bubble. @ :42

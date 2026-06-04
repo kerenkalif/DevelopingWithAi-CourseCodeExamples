@@ -1,0 +1,1650 @@
+- generic [active] [ref=e1]:
+  - complementary "כלי נגישות":
+    - generic:
+      - generic:
+        - region "Skip Links":
+          - link "עבור לסרגל הכלים של הנגישות" [ref=e2214] [cursor=pointer]:
+            - /url: "#"
+    - button "פתח כלי נגישות" [ref=e2215] [cursor=pointer]:
+      - img "פתח כלי נגישות" [ref=e2217]
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - button [ref=e9] [cursor=pointer]
+      - banner [ref=e12]:
+        - generic [ref=e13]:
+          - link "דרושים IL" [ref=e15] [cursor=pointer]:
+            - /url: /
+            - img "דרושים IL" [ref=e16]
+          - generic [ref=e18]:
+            - link "הסוכנת החכמה" [ref=e20] [cursor=pointer]:
+              - /url: /smartalerts.aspx
+            - button [ref=e23] [cursor=pointer]
+            - link "גיוס עובדים" [ref=e26] [cursor=pointer]:
+              - /url: https://www.drushim.co.il/employers
+    - generic [ref=e27]:
+      - generic [ref=e35]:
+        - text: 
+        - generic [ref=e37]:
+          - generic:
+            - generic:
+              - paragraph
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - paragraph [ref=e43]: "זה מה שחיפשת:"
+              - generic [ref=e45]:
+                - combobox [ref=e49]:
+                  - img [ref=e51]
+                  - generic [ref=e52]:
+                    - textbox "חפש/י את העבודה הבאה שלך" [ref=e53]: Python developer
+                    - button "clear icon" [ref=e56] [cursor=pointer]: 󰅖
+                - generic [ref=e60]:
+                  - combobox [ref=e63]:
+                    - img [ref=e65]
+                    - textbox "איפה העבודה הבאה שלך?" [ref=e67]
+                  - text: 󰍝
+                - button "חיפוש" [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70]: חיפוש
+            - generic [ref=e71]:
+              - paragraph [ref=e74]: "אפשרויות סינון:"
+              - generic [ref=e76]:
+                - button "קטגוריה" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]: קטגוריה
+                - button "תחום" [ref=e82] [cursor=pointer]:
+                  - generic [ref=e83]: תחום
+                - button "שנות ניסיון" [ref=e86] [cursor=pointer]:
+                  - generic [ref=e87]: שנות ניסיון
+                - button "היקף משרה" [ref=e90] [cursor=pointer]:
+                  - generic [ref=e91]: היקף משרה
+                - button "ללא קורות חיים" [ref=e94] [cursor=pointer]:
+                  - generic [ref=e95]: ללא קורות חיים
+      - generic [ref=e97]:
+        - 'heading "דרושים Python developer: מצאנו 32 הצעות עבודה חדשות עבורך" [level=1] [ref=e98]'
+        - list [ref=e100]:
+          - listitem [ref=e101]:
+            - link "דרושים" [ref=e102] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e103]: ">"
+          - listitem:
+            - link "'Python developer'":
+              - /url: https://www.drushim.co.il/jobs/search/python+developer/
+        - generic [ref=e104]:
+          - paragraph [ref=e105]: המשרות החמות שלנו
+          - generic [ref=e107]:
+            - paragraph [ref=e109]: מעוניינים להוסיף כאן משרה משלכם?
+            - link "צרו איתנו קשר!" [ref=e111] [cursor=pointer]:
+              - /url: https://www.drushim.co.il/employers
+              - generic [ref=e112]: צרו איתנו קשר!
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - heading "מצאנו 32 משרות שעשויות לעניין אותך" [level=2] [ref=e119]
+            - generic [ref=e120]:
+              - generic [ref=e123]:
+                - generic [ref=e124]:
+                  - generic [ref=e125]:
+                    - generic [ref=e127]:
+                      - heading "Senior Python Backend Developer" [level=3] [ref=e129] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e131]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e133] [cursor=pointer]:
+                        - /url: /job/36913241/8fc3ef9d/
+                        - img [ref=e134]
+                      - button [ref=e137] [cursor=pointer]:
+                        - generic [ref=e139]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e142] [cursor=pointer]:
+                        - generic [ref=e144]: 
+                  - generic [ref=e145]:
+                    - generic [ref=e146]:
+                      - paragraph:
+                        - link "Matrix R&D Services":
+                          - /url: https://www.drushim.co.il/דרושים-3795424-סטאריט/
+                    - generic [ref=e150]:
+                      - generic [ref=e153]: פתח תקווה |
+                      - generic [ref=e154]: 5-6 שנים |
+                      - generic [ref=e156]:
+                        - generic [ref=e157]: משרה מלאה
+                        - generic [ref=e158]: ועוד
+                      - generic [ref=e159]: "| לפני 50 דקות"
+                - paragraph [ref=e163] [cursor=pointer]: לחברת סייבר מצליחה דרוש/ה מפתח/ת Python מנוסה פיתוח Backend מקצה לקצה בסביבת Python ו-AWS, עבודה צמודה מול צוותים גלובליים בסביבה דינמית, אחריות כפונקציה המקצועית (Focal Point) למתן פת...
+                - generic [ref=e164]:
+                  - generic [ref=e165] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e166]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e169] [cursor=pointer]:
+                    - generic [ref=e171]:
+                      - img "TAP" [ref=e172]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e175]:
+                - generic [ref=e176]:
+                  - generic [ref=e177]:
+                    - generic [ref=e179]:
+                      - heading "Senior Python Backend developer" [level=3] [ref=e181] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e183]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e185] [cursor=pointer]:
+                        - /url: /job/36838324/4894f6c8/
+                        - img [ref=e186]
+                      - button [ref=e189] [cursor=pointer]:
+                        - generic [ref=e191]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e194] [cursor=pointer]:
+                        - generic [ref=e196]: 
+                  - generic [ref=e197]:
+                    - generic [ref=e198]:
+                      - paragraph:
+                        - link "TALPIOT":
+                          - /url: https://www.drushim.co.il/דרושים-650354-מטריקס-global/
+                    - generic [ref=e202]:
+                      - generic [ref=e205]: פתח תקווה |
+                      - generic [ref=e206]: 5-6 שנים |
+                      - generic [ref=e208]:
+                        - generic [ref=e209]: משרה מלאה
+                        - generic [ref=e210]: ועוד
+                      - generic [ref=e211]: "| לפני 21 שעות"
+                - paragraph [ref=e215] [cursor=pointer]: MATRIX | מטריקס לחברת סייבר גלובאלית מובילה בתחומה דרוש/ה Senior Python Backend Developer הזדמנות מעולה לקחת חלק בפרויקטים חדשניים ולהיות שותפ/ה אמיתי/ת בעשייה טכנולוגית.
+                - generic [ref=e216]:
+                  - generic [ref=e217] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e218]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e221] [cursor=pointer]:
+                    - generic [ref=e223]:
+                      - img "TAP" [ref=e224]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e229]:
+                    - generic [ref=e231]:
+                      - heading "Automation Engineer (Python)" [level=3] [ref=e233] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e235]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e237] [cursor=pointer]:
+                        - /url: /job/36913393/f54bedd8/
+                        - img [ref=e238]
+                      - button [ref=e241] [cursor=pointer]:
+                        - generic [ref=e243]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e246] [cursor=pointer]:
+                        - generic [ref=e248]: 
+                  - generic [ref=e249]:
+                    - generic [ref=e250]:
+                      - paragraph:
+                        - link "Matrix R&D Services":
+                          - /url: https://www.drushim.co.il/דרושים-3795424-סטאריט/
+                    - generic [ref=e254]:
+                      - generic [ref=e257]: תל אביב |
+                      - generic [ref=e258]: 3-4 שנים |
+                      - generic [ref=e261]: משרה מלאה
+                      - generic [ref=e262]: "| לפני 50 דקות"
+                - paragraph [ref=e266] [cursor=pointer]: אנחנו מגייסים מפתח/ת אוטומציה מנוסה (5+ שנות ניסיון) להצטרפות לצוות ה-R&D שלנו. התפקיד מיועד למומחים שרוצים להוביל את תחום ה-Quality בעולמות ה-Backend, לפתח תשתיות מורכבות בסביבות מבוזר...
+                - generic [ref=e267]:
+                  - generic [ref=e268] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e269]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e272] [cursor=pointer]:
+                    - generic [ref=e274]:
+                      - img "TAP" [ref=e275]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e278]:
+                - generic [ref=e279]:
+                  - generic [ref=e280]:
+                    - generic [ref=e282]:
+                      - heading "ATE Software Engineer (Python)" [level=3] [ref=e284] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e286]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e288] [cursor=pointer]:
+                        - /url: /job/36831750/cc77d060/
+                        - img [ref=e289]
+                      - button [ref=e292] [cursor=pointer]:
+                        - generic [ref=e294]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e297] [cursor=pointer]:
+                        - generic [ref=e299]: 
+                  - generic [ref=e300]:
+                    - generic [ref=e301]:
+                      - paragraph:
+                        - link "CodeValue":
+                          - /url: https://www.drushim.co.il/דרושים-1953469-codevalue/
+                    - generic [ref=e305]:
+                      - generic [ref=e306]: מספר מקומות |
+                      - generic [ref=e307]: 5-6 שנים |
+                      - generic [ref=e310]: משרה מלאה
+                      - generic [ref=e311]: "| לפני 23 שעות"
+                - paragraph [ref=e315] [cursor=pointer]: CodeValue is looking for an ATE Software Engineer to join our team. In this role, you will develop and maintain software for Automatic Test Equipment systems used in advanced electronic...
+                - generic [ref=e316]:
+                  - generic [ref=e317] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e318]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e321] [cursor=pointer]:
+                    - generic [ref=e323]:
+                      - img "TAP" [ref=e324]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e327]:
+                - generic [ref=e328]:
+                  - generic [ref=e329]:
+                    - generic [ref=e331]:
+                      - heading "דרוש/ה מפתח/ת אוטומציה ב PYTHON" [level=3] [ref=e333] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e335]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e337] [cursor=pointer]:
+                        - /url: /job/37059256/52c5a8c2/
+                        - img [ref=e338]
+                      - button [ref=e341] [cursor=pointer]:
+                        - generic [ref=e343]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e346] [cursor=pointer]:
+                        - generic [ref=e348]: 
+                  - generic [ref=e349]:
+                    - generic [ref=e350]:
+                      - paragraph: "- חסוי -"
+                    - generic [ref=e354]:
+                      - generic [ref=e357]: אשדוד |
+                      - generic [ref=e358]: 1-2 שנים |
+                      - generic [ref=e361]: משרה מלאה
+                      - generic [ref=e362]: "| לפני 1 שעות"
+                - paragraph [ref=e366] [cursor=pointer]: לחברה ביטחונית מובילה בתחומה דרוש/ה מפתח/ת אוטומציה ב PYTHON
+                - generic [ref=e367]:
+                  - generic [ref=e368] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e369]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e372] [cursor=pointer]:
+                    - generic [ref=e374]:
+                      - img "TAP" [ref=e375]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - generic [ref=e380]:
+                    - generic [ref=e382]:
+                      - heading "מפתח/ת אוטומציה Python" [level=3] [ref=e384] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e386]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e388] [cursor=pointer]:
+                        - /url: /job/37042308/cfc77838/
+                        - img [ref=e389]
+                      - button [ref=e392] [cursor=pointer]:
+                        - generic [ref=e394]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e397] [cursor=pointer]:
+                        - generic [ref=e399]: 
+                  - generic [ref=e400]:
+                    - generic [ref=e401]:
+                      - paragraph:
+                        - link "TALPIOT":
+                          - /url: https://www.drushim.co.il/דרושים-650354-מטריקס-global/
+                    - generic [ref=e405]:
+                      - generic [ref=e408]: אור יהודה |
+                      - generic [ref=e409]: 1-2 שנים |
+                      - generic [ref=e412]: היברידי
+                      - generic [ref=e413]: "| לפני 22 שעות"
+                - paragraph [ref=e417] [cursor=pointer]: לחברת הייטק גלובאלית מובילה בתחומה דרוש/ה מפתח/אוטומציה למשרה מעניינת ומאתגרת . עבודה היברידית .
+                - generic [ref=e418]:
+                  - generic [ref=e419] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e420]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e423] [cursor=pointer]:
+                    - generic [ref=e425]:
+                      - img "TAP" [ref=e426]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e429]:
+                - generic [ref=e430]:
+                  - generic [ref=e431]:
+                    - generic [ref=e433]:
+                      - heading "Python Databricks Developer" [level=3] [ref=e435] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e437]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e439] [cursor=pointer]:
+                        - /url: /job/36939784/52cd6419/
+                        - img [ref=e440]
+                      - button [ref=e443] [cursor=pointer]:
+                        - generic [ref=e445]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e448] [cursor=pointer]:
+                        - generic [ref=e450]: 
+                  - generic [ref=e451]:
+                    - generic [ref=e452]:
+                      - paragraph:
+                        - link "Logica-IT":
+                          - /url: https://www.drushim.co.il/דרושים-311679-logica-it/
+                    - generic [ref=e456]:
+                      - generic [ref=e459]: רמת גן |
+                      - generic [ref=e460]: 3-4 שנים |
+                      - generic [ref=e463]: היברידי
+                      - generic [ref=e464]: "| 19/05/2026"
+                - paragraph [ref=e468] [cursor=pointer]: משרת Python & AI Developer | Databricks לחברה פיננסית מובילה באזור המרכז דרוש/ה Python Developer להשתלבות בצוות טכנולוגי מתקדם בתחום ההשקעות וה־AI. התפקיד כולל פיתוח פתרונות Data & ...
+                - generic [ref=e469]:
+                  - generic [ref=e470] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e471]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e474] [cursor=pointer]:
+                    - generic [ref=e476]:
+                      - img "TAP" [ref=e477]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e480]:
+                - generic [ref=e481]:
+                  - generic [ref=e482]:
+                    - generic [ref=e484]:
+                      - heading "Python Automation Developer" [level=3] [ref=e486] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e488]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e490] [cursor=pointer]:
+                        - /url: /job/36970469/3493fbdb/
+                        - img [ref=e491]
+                      - button [ref=e494] [cursor=pointer]:
+                        - generic [ref=e496]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e499] [cursor=pointer]:
+                        - generic [ref=e501]: 
+                  - generic [ref=e502]:
+                    - generic [ref=e503]:
+                      - paragraph:
+                        - link "Ness":
+                          - /url: https://www.drushim.co.il/דרושים-3989-ness-technologies/
+                    - generic [ref=e507]:
+                      - generic [ref=e510]: הרצליה |
+                      - generic [ref=e511]: 3-4 שנים |
+                      - generic [ref=e514]: משרה מלאה
+                      - generic [ref=e515]: "| 08/05/2026"
+                - paragraph [ref=e519] [cursor=pointer]: ל-NESS FORCE, פעילות המגזר הבטחוני, דרוש/ה מפתח/ת אוטומציה. התפקיד כולל פיתוח אוטומציה ותשתיות על גבי מערכות מורכבות, בטכנולוגיות מתקדמות ביותר. פיתוח אוטומציה למערכות בפלטפורמות מגוונ...
+                - generic [ref=e520]:
+                  - generic [ref=e521] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e522]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e525] [cursor=pointer]:
+                    - generic [ref=e527]:
+                      - img "TAP" [ref=e528]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e531]:
+                - generic [ref=e532]:
+                  - generic [ref=e533]:
+                    - generic [ref=e535]:
+                      - heading "תכניתנ.ית Python" [level=3] [ref=e537] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e539]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e541] [cursor=pointer]:
+                        - /url: /job/36905793/e39d9709/
+                        - img [ref=e542]
+                      - button [ref=e545] [cursor=pointer]:
+                        - generic [ref=e547]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e550] [cursor=pointer]:
+                        - generic [ref=e552]: 
+                  - generic [ref=e553]:
+                    - generic [ref=e554]:
+                      - paragraph:
+                        - link "Software AG - SPL":
+                          - /url: https://www.drushim.co.il/דרושים-9651-spl--software-ag/
+                    - generic [ref=e558]:
+                      - generic [ref=e561]: חולון |
+                      - generic [ref=e562]: 3-4 שנים |
+                      - generic [ref=e565]: משרה מלאה
+                      - generic [ref=e566]: "| 21/05/2026"
+                - paragraph [ref=e570] [cursor=pointer]: חברת Software AG מגייסת תכניתנ.ית Python ללקוח החברה באזור המרכז.
+                - generic [ref=e571]:
+                  - generic [ref=e572] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e573]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e576] [cursor=pointer]:
+                    - generic [ref=e578]:
+                      - img "TAP" [ref=e579]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e582]:
+                - generic [ref=e583]:
+                  - generic [ref=e584]:
+                    - generic [ref=e586]:
+                      - heading "מפתח/ת Full Stack - Python / React" [level=3] [ref=e588] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e590]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e592] [cursor=pointer]:
+                        - /url: /job/36830002/21142ada/
+                        - img [ref=e593]
+                      - button [ref=e596] [cursor=pointer]:
+                        - generic [ref=e598]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e601] [cursor=pointer]:
+                        - generic [ref=e603]: 
+                  - generic [ref=e604]:
+                    - generic [ref=e605]:
+                      - paragraph:
+                        - link "בינת מערכות תכנה":
+                          - /url: https://www.drushim.co.il/דרושים-9460-בינת-מערכות-תכנה/
+                    - generic [ref=e609]:
+                      - generic [ref=e612]: רמת החייל |
+                      - generic [ref=e613]: 3-4 שנים |
+                      - generic [ref=e616]: משרה מלאה
+                      - generic [ref=e617]: "| 15/05/2026"
+                - paragraph [ref=e621] [cursor=pointer]: פיתוח מערכות Web מתקדמות ב- Python ו- React עבודה בסביבת ענן (Cloud) ובתחום בינה מלאכותית (AI) כתיבה ותחזוקה של ארכיטקטורה טכנולוגית תיעוד טכני והשתתפות בעיצוב הפתרונות עם הצוות
+                - generic [ref=e622]:
+                  - generic [ref=e623] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e624]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e627] [cursor=pointer]:
+                    - generic [ref=e629]:
+                      - img "TAP" [ref=e630]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e633]:
+                - generic [ref=e634]:
+                  - generic [ref=e635]:
+                    - generic [ref=e637]:
+                      - heading "Senior Software Engineer (Python)" [level=3] [ref=e639] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e641]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e643] [cursor=pointer]:
+                        - /url: /job/37088820/8ffeaddc/
+                        - img [ref=e644]
+                      - button [ref=e647] [cursor=pointer]:
+                        - generic [ref=e649]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e652] [cursor=pointer]:
+                        - generic [ref=e654]: 
+                  - generic [ref=e655]:
+                    - generic [ref=e656]:
+                      - paragraph: HighTech Company
+                    - generic [ref=e660]:
+                      - generic [ref=e663]: רעננה |
+                      - generic [ref=e664]: 7 שנים ומעלה |
+                      - generic [ref=e667]: משרה מלאה
+                      - generic [ref=e668]: "| 19/05/2026"
+                - paragraph [ref=e672] [cursor=pointer]: "Advantages: Experience with infrastructure automation and IaC (Infrastructure as Code) Experience with relational databases (PostgreSQL, MySQL, or similar) Experience with workflow e..."
+                - generic [ref=e673]:
+                  - generic [ref=e674] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e675]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e678] [cursor=pointer]:
+                    - generic [ref=e680]:
+                      - img "TAP" [ref=e681]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e684]:
+                - generic [ref=e685]:
+                  - generic [ref=e686]:
+                    - generic [ref=e688]:
+                      - heading "Senior Software Engineer (Python)" [level=3] [ref=e690] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e692]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e694] [cursor=pointer]:
+                        - /url: /job/37088782/9bbcadd3/
+                        - img [ref=e695]
+                      - button [ref=e698] [cursor=pointer]:
+                        - generic [ref=e700]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e703] [cursor=pointer]:
+                        - generic [ref=e705]: 
+                  - generic [ref=e706]:
+                    - generic [ref=e707]:
+                      - paragraph: HighTech Company
+                    - generic [ref=e711]:
+                      - generic [ref=e714]: רעננה |
+                      - generic [ref=e715]: 7 שנים ומעלה |
+                      - generic [ref=e718]: משרה מלאה
+                      - generic [ref=e719]: "| 19/05/2026"
+                - paragraph [ref=e723] [cursor=pointer]: "Advantages: Experience with infrastructure automation and IaC (Infrastructure as Code) Experience with relational databases (PostgreSQL, MySQL, or similar) Experience with workflow e..."
+                - generic [ref=e724]:
+                  - generic [ref=e725] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e726]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e729] [cursor=pointer]:
+                    - generic [ref=e731]:
+                      - img "TAP" [ref=e732]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e735]:
+                - generic [ref=e736]:
+                  - generic [ref=e737]:
+                    - generic [ref=e739]:
+                      - heading "מפתח/ת AI (Python+React)" [level=3] [ref=e741] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e743]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e745] [cursor=pointer]:
+                        - /url: /job/37020990/1826e474/
+                        - img [ref=e746]
+                      - button [ref=e749] [cursor=pointer]:
+                        - generic [ref=e751]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e754] [cursor=pointer]:
+                        - generic [ref=e756]: 
+                  - generic [ref=e757]:
+                    - generic [ref=e758]:
+                      - paragraph: דיסקרטי
+                    - generic [ref=e762]:
+                      - generic [ref=e765]: רמת גן |
+                      - generic [ref=e766]: 5-6 שנים |
+                      - generic [ref=e768]:
+                        - generic [ref=e769]: משרה מלאה
+                        - generic [ref=e770]: ועוד
+                      - generic [ref=e771]: "| 13/05/2026"
+                - paragraph [ref=e775] [cursor=pointer]: לחברה מובילה ויציבה דרוש/ה מפתח/ת Full Stack AI היברידיות ושעות עבודה גמישות.
+                - generic [ref=e776]:
+                  - generic [ref=e777] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e778]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e781] [cursor=pointer]:
+                    - generic [ref=e783]:
+                      - img "TAP" [ref=e784]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e787]:
+                - generic [ref=e788]:
+                  - generic [ref=e789]:
+                    - generic [ref=e791]:
+                      - heading "מפתח/ת PYTHON" [level=3] [ref=e793] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e795]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e797] [cursor=pointer]:
+                        - /url: /job/36988614/5a60ace7/
+                        - img [ref=e798]
+                      - button [ref=e801] [cursor=pointer]:
+                        - generic [ref=e803]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e806] [cursor=pointer]:
+                        - generic [ref=e808]: 
+                  - generic [ref=e809]:
+                    - generic [ref=e810]:
+                      - paragraph:
+                        - link "Ness":
+                          - /url: https://www.drushim.co.il/דרושים-3989-ness-technologies/
+                    - generic [ref=e814]:
+                      - generic [ref=e817]: רעננה |
+                      - generic [ref=e818]: 1-2 שנים |
+                      - generic [ref=e820]:
+                        - generic [ref=e821]: משרה מלאה
+                        - generic [ref=e822]: ועוד
+                      - generic [ref=e823]: "| 10/05/2026"
+                - paragraph [ref=e827] [cursor=pointer]: ל-NESS דרוש/ה מפתח/ת PYTHON. התפקיד כולל פיתוח ותחזוקה של מערכות מבוססות מיקרו-שירותים, תהליכי Data Processing. אינטגרציות מול שירותים חיצוניים בענן AWS. עבודה בסביבה דינמית, עצמאית ...
+                - generic [ref=e828]:
+                  - generic [ref=e829] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e830]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e833] [cursor=pointer]:
+                    - generic [ref=e835]:
+                      - img "TAP" [ref=e836]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e839]:
+                - generic [ref=e840]:
+                  - generic [ref=e841]:
+                    - generic [ref=e843]:
+                      - heading "מפתח/ת Python Databricks" [level=3] [ref=e845] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e847]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e849] [cursor=pointer]:
+                        - /url: /job/36830135/b4a00cb5/
+                        - img [ref=e850]
+                      - button [ref=e853] [cursor=pointer]:
+                        - generic [ref=e855]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e858] [cursor=pointer]:
+                        - generic [ref=e860]: 
+                  - generic [ref=e861]:
+                    - generic [ref=e862]:
+                      - paragraph:
+                        - link "בינת מערכות תכנה":
+                          - /url: https://www.drushim.co.il/דרושים-9460-בינת-מערכות-תכנה/
+                    - generic [ref=e866]:
+                      - generic [ref=e869]: רמת גן |
+                      - generic [ref=e870]: 3-4 שנים |
+                      - generic [ref=e873]: משרה מלאה
+                      - generic [ref=e874]: "| 10/05/2026"
+                - paragraph [ref=e878] [cursor=pointer]: לחברת גדולה הממוקמת במרכז דרוש/ה מפתח DATA וAI לחטיבה הטכנולוגית. התפקיד משלב פיתוח פתרונות AI מתקדמים ,הקמת תהליכים מקצה לקצה והסבת מערכות מורכבות לסביבת עבודה מודרנית עיקרי התפקיד ...
+                - generic [ref=e879]:
+                  - generic [ref=e880] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e881]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e884] [cursor=pointer]:
+                    - generic [ref=e886]:
+                      - img "TAP" [ref=e887]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e890]:
+                - generic [ref=e891]:
+                  - generic [ref=e892]:
+                    - generic [ref=e894]:
+                      - heading "Senior Data Engineer" [level=3] [ref=e896] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e898]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e900] [cursor=pointer]:
+                        - /url: /job/36836348/88b7e1a4/
+                        - img [ref=e901]
+                      - button [ref=e904] [cursor=pointer]:
+                        - generic [ref=e906]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e909] [cursor=pointer]:
+                        - generic [ref=e911]: 
+                  - generic [ref=e912]:
+                    - generic [ref=e913]:
+                      - paragraph:
+                        - link "אביבית דבוש השמה":
+                          - /url: https://www.drushim.co.il/דרושים-1300154-אביבית-שירותי-השמה/
+                    - generic [ref=e917]:
+                      - generic [ref=e918]: מספר מקומות |
+                      - generic [ref=e919]: 5-6 שנים |
+                      - generic [ref=e922]: משרה מלאה
+                      - generic [ref=e923]: "| 19/05/2026"
+                - paragraph [ref=e927] [cursor=pointer]: Senior Data Engineer - הפונקציה ראשונה בחברה BSc/BA in Computer Science, Engineering, or a related field. At least 5 years of experience with designing and building data pipelines, an...
+                - generic [ref=e928]:
+                  - generic [ref=e929] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e930]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e933] [cursor=pointer]:
+                    - generic [ref=e935]:
+                      - img "TAP" [ref=e936]
+                      - text: שלח/י קורות חיים
+            - generic [ref=e937]:
+              - heading "משרות נוספות מומלצות עבורך" [level=4] [ref=e938]
+              - paragraph [ref=e939]: לפי החיפושים הקודמים שלך וחיפושים דומים של מועמדים אחרים
+            - generic [ref=e942]:
+              - generic [ref=e943]:
+                - generic [ref=e944]:
+                  - generic [ref=e946]:
+                    - heading "Senior JAVA Developer" [level=3] [ref=e948] [cursor=pointer]
+                    - text: 󰅀
+                  - generic [ref=e950]:
+                    - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e952] [cursor=pointer]:
+                      - /url: /job/37087528/6279b70a/
+                      - img [ref=e953]
+                    - button [ref=e956] [cursor=pointer]:
+                      - generic [ref=e958]: 
+                    - button "להוספה/ הסרה של משרות שאהבת" [ref=e961] [cursor=pointer]:
+                      - generic [ref=e963]: 
+                - generic [ref=e964]:
+                  - generic [ref=e965]:
+                    - paragraph:
+                      - link "עידור מערכות":
+                        - /url: https://www.drushim.co.il/דרושים-5578-עידור-מערכות/
+                  - generic [ref=e969]:
+                    - generic [ref=e972]: רמת גן |
+                    - generic [ref=e973]: 3-4 שנים |
+                    - generic [ref=e976]: משרה מלאה
+                    - generic [ref=e977]: "| 19/05/2026"
+              - paragraph [ref=e981] [cursor=pointer]: "Senior JAVA Developer חברת ביטוח גדולה במרכז הארץ מגייסת Senior JAVA Developer התפקיד כולל: פיתוח ותחזוקה (Client, server) ב JAVA ובמגוון טכנולוגיות, עבודה במתודולוגיית Agile, עבוד..."
+              - generic [ref=e982]:
+                - generic [ref=e983] [cursor=pointer]: + לצפייה בפרטי המשרה
+                - generic [ref=e984]:
+                  - generic:  
+                - button "TAP שלח/י קורות חיים" [ref=e987] [cursor=pointer]:
+                  - generic [ref=e989]:
+                    - img "TAP" [ref=e990]
+                    - text: שלח/י קורות חיים
+            - generic [ref=e993]:
+              - generic [ref=e994]:
+                - generic [ref=e995]:
+                  - generic [ref=e997]:
+                    - heading "Full Stack Developer מערכת Web מתקדמת" [level=3] [ref=e999] [cursor=pointer]
+                    - text: 󰅀
+                  - generic [ref=e1001]:
+                    - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1003] [cursor=pointer]:
+                      - /url: /job/36808836/3a4809ac/
+                      - img [ref=e1004]
+                    - button [ref=e1007] [cursor=pointer]:
+                      - generic [ref=e1009]: 
+                    - button "להוספה/ הסרה של משרות שאהבת" [ref=e1012] [cursor=pointer]:
+                      - generic [ref=e1014]: 
+                - generic [ref=e1015]:
+                  - generic [ref=e1016]:
+                    - paragraph:
+                      - link "השועלה":
+                        - /url: https://www.drushim.co.il/דרושים-4113465-השועלה/
+                  - generic [ref=e1020]:
+                    - generic [ref=e1023]: תל אביב |
+                    - generic [ref=e1024]: 1-2 שנים |
+                    - generic [ref=e1026]:
+                      - generic [ref=e1027]: משרה מלאה
+                      - generic [ref=e1028]: ועוד
+                    - generic [ref=e1029]: "| לפני 3 שעות"
+              - paragraph [ref=e1033] [cursor=pointer]: "איך יראה היום יום: פיתוח Front End מבוסס Angular לצד פיתוח Back End בסביבת ‎C#/.NET‎ תוך עבודה עם טכנולוגיות חדשניות וכלי פיתוח מתקדמים."
+              - generic [ref=e1034]:
+                - generic [ref=e1035] [cursor=pointer]: + לצפייה בפרטי המשרה
+                - generic [ref=e1036]:
+                  - generic:  
+                - button "TAP שלח/י קורות חיים" [ref=e1039] [cursor=pointer]:
+                  - generic [ref=e1041]:
+                    - img "TAP" [ref=e1042]
+                    - text: שלח/י קורות חיים
+            - generic [ref=e1045]:
+              - generic [ref=e1046]:
+                - generic [ref=e1047]:
+                  - generic [ref=e1049]:
+                    - heading "לחברה מובילה בתחום הפיננסי דרוש/ה מתכנת/ת RPG" [level=3] [ref=e1051] [cursor=pointer]
+                    - text: 󰅀
+                  - generic [ref=e1053]:
+                    - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1055] [cursor=pointer]:
+                      - /url: /job/36859072/6023df0c/
+                      - img [ref=e1056]
+                    - button [ref=e1059] [cursor=pointer]:
+                      - generic [ref=e1061]: 
+                    - button "להוספה/ הסרה של משרות שאהבת" [ref=e1064] [cursor=pointer]:
+                      - generic [ref=e1066]: 
+                - generic [ref=e1067]:
+                  - generic [ref=e1068]:
+                    - paragraph:
+                      - link "Unitask":
+                        - /url: https://www.drushim.co.il/דרושים-15256-unitask/
+                  - generic [ref=e1072]:
+                    - generic [ref=e1075]: רמת גן |
+                    - generic [ref=e1076]: 3-4 שנים |
+                    - generic [ref=e1079]: משרה מלאה
+                    - generic [ref=e1080]: "| 16/05/2026"
+              - paragraph [ref=e1084] [cursor=pointer]: מתכנת/ת RPG לצוות פיתוח מערכות אלמנטר פיתוח מערכות חדשות ותמיכה שוטפת במערכות הקיימות טיפול בדרישות פיתוח מקצה לקצה
+              - generic [ref=e1085]:
+                - generic [ref=e1086] [cursor=pointer]: + לצפייה בפרטי המשרה
+                - generic [ref=e1087]:
+                  - generic:  
+                - button "TAP שלח/י קורות חיים" [ref=e1090] [cursor=pointer]:
+                  - generic [ref=e1092]:
+                    - img "TAP" [ref=e1093]
+                    - text: שלח/י קורות חיים
+            - generic [ref=e1096]:
+              - generic [ref=e1097]:
+                - generic [ref=e1098]:
+                  - generic [ref=e1100]:
+                    - heading "מפתח/ת Java בכיר/ה" [level=3] [ref=e1102] [cursor=pointer]
+                    - text: 󰅀
+                  - generic [ref=e1104]:
+                    - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1106] [cursor=pointer]:
+                      - /url: /job/37030813/4f93feed/
+                      - img [ref=e1107]
+                    - button [ref=e1110] [cursor=pointer]:
+                      - generic [ref=e1112]: 
+                    - button "להוספה/ הסרה של משרות שאהבת" [ref=e1115] [cursor=pointer]:
+                      - generic [ref=e1117]: 
+                - generic [ref=e1118]:
+                  - generic [ref=e1119]:
+                    - paragraph:
+                      - link "קבוצת Aman":
+                        - /url: https://www.drushim.co.il/דרושים-23333-קבוצת-אמן/
+                  - generic [ref=e1123]:
+                    - generic [ref=e1124]: מספר מקומות |
+                    - generic [ref=e1125]: 3-4 שנים |
+                    - generic [ref=e1127]:
+                      - generic [ref=e1128]: משרה מלאה
+                      - generic [ref=e1129]: ועוד
+                    - generic [ref=e1130]: "| 13/05/2026"
+              - paragraph [ref=e1134] [cursor=pointer]: מה אם הייתי אומרת לך שאת/ה יכול/ה להשתלב בצוות המוביל את פרויקט הדגל של הארגון? לארגון פיננסי גדול באזור המרכז דרוש/ה מפתח/ת Java בכיר/ה! התפקיד כולל פיתוח פרויקט פיננסי מרכזי בארכי...
+              - generic [ref=e1135]:
+                - generic [ref=e1136] [cursor=pointer]: + לצפייה בפרטי המשרה
+                - generic [ref=e1137]:
+                  - generic:  
+                - button "TAP שלח/י קורות חיים" [ref=e1140] [cursor=pointer]:
+                  - generic [ref=e1142]:
+                    - img "TAP" [ref=e1143]
+                    - text: שלח/י קורות חיים
+            - generic [ref=e1146]:
+              - generic [ref=e1147]:
+                - generic [ref=e1148]:
+                  - generic [ref=e1150]:
+                    - heading "React Native team lead" [level=3] [ref=e1152] [cursor=pointer]
+                    - text: 󰅀
+                  - generic [ref=e1154]:
+                    - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1156] [cursor=pointer]:
+                      - /url: /job/36910277/9571cc59/
+                      - img [ref=e1157]
+                    - button [ref=e1160] [cursor=pointer]:
+                      - generic [ref=e1162]: 
+                    - button "להוספה/ הסרה של משרות שאהבת" [ref=e1165] [cursor=pointer]:
+                      - generic [ref=e1167]: 
+                - generic [ref=e1168]:
+                  - generic [ref=e1169]:
+                    - paragraph:
+                      - link "matrix (פינטק)":
+                        - /url: https://www.drushim.co.il/דרושים-4002277-פינטק/
+                  - generic [ref=e1173]:
+                    - generic [ref=e1176]: לוד |
+                    - generic [ref=e1177]: 5-6 שנים |
+                    - generic [ref=e1180]: משרה מלאה
+                    - generic [ref=e1181]: "| לפני 1 שעות"
+              - paragraph [ref=e1185] [cursor=pointer]: אנחנו מגייסים ראש צוות React Native להובלת צוות פיתוח מובייל בפיתוח ותחזוקת אפליקציות מתקדמות בסביבת Production. התפקיד כולל הובלה ניהולית ומקצועית של הצוות, אחריות על ארכיטקטורה וסטנדר...
+              - generic [ref=e1186]:
+                - generic [ref=e1187] [cursor=pointer]: + לצפייה בפרטי המשרה
+                - generic [ref=e1188]:
+                  - generic:  
+                - button "TAP שלח/י קורות חיים" [ref=e1191] [cursor=pointer]:
+                  - generic [ref=e1193]:
+                    - img "TAP" [ref=e1194]
+                    - text: שלח/י קורות חיים
+            - generic [ref=e1197]:
+              - generic [ref=e1198]:
+                - generic [ref=e1199]:
+                  - generic [ref=e1201]:
+                    - heading "מפתח/ת Full stack" [level=3] [ref=e1203] [cursor=pointer]
+                    - text: 󰅀
+                  - generic [ref=e1205]:
+                    - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1207] [cursor=pointer]:
+                      - /url: /job/36904786/463e1270/
+                      - img [ref=e1208]
+                    - button [ref=e1211] [cursor=pointer]:
+                      - generic [ref=e1213]: 
+                    - button "להוספה/ הסרה של משרות שאהבת" [ref=e1216] [cursor=pointer]:
+                      - generic [ref=e1218]: 
+                - generic [ref=e1219]:
+                  - generic [ref=e1220]:
+                    - paragraph:
+                      - link "Software AG - SPL":
+                        - /url: https://www.drushim.co.il/דרושים-9651-spl--software-ag/
+                  - generic [ref=e1224]:
+                    - generic [ref=e1227]: רמת גן |
+                    - generic [ref=e1228]: 5-6 שנים |
+                    - generic [ref=e1230]:
+                      - generic [ref=e1231]: משרה מלאה
+                      - generic [ref=e1232]: ועוד
+                    - generic [ref=e1233]: "| 20/05/2026"
+              - paragraph [ref=e1237] [cursor=pointer]: חברת Software AG מגייסת מפתח/ת Full stack לארגון ממשלתי במרכז.
+              - generic [ref=e1238]:
+                - generic [ref=e1239] [cursor=pointer]: + לצפייה בפרטי המשרה
+                - generic [ref=e1240]:
+                  - generic:  
+                - button "TAP שלח/י קורות חיים" [ref=e1243] [cursor=pointer]:
+                  - generic [ref=e1245]:
+                    - img "TAP" [ref=e1246]
+                    - text: שלח/י קורות חיים
+            - generic [ref=e1249]:
+              - generic [ref=e1250]:
+                - generic [ref=e1251]:
+                  - generic [ref=e1253]:
+                    - heading "דרוש/ה מפתח/ת JAVA" [level=3] [ref=e1255] [cursor=pointer]
+                    - text: 󰅀
+                  - generic [ref=e1257]:
+                    - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1259] [cursor=pointer]:
+                      - /url: /job/36919606/0687d8c3/
+                      - img [ref=e1260]
+                    - button [ref=e1263] [cursor=pointer]:
+                      - generic [ref=e1265]: 
+                    - button "להוספה/ הסרה של משרות שאהבת" [ref=e1268] [cursor=pointer]:
+                      - generic [ref=e1270]: 
+                - generic [ref=e1271]:
+                  - generic [ref=e1272]:
+                    - paragraph:
+                      - link "קומפאי טכנולוגיות":
+                        - /url: https://www.drushim.co.il/דרושים-1920903-קומפאי-טכנולוגיות/
+                  - generic [ref=e1276]:
+                    - generic [ref=e1277]: מספר מקומות |
+                    - generic [ref=e1278]: 5-6 שנים |
+                    - generic [ref=e1280]:
+                      - generic [ref=e1281]: משרה מלאה
+                      - generic [ref=e1282]: ועוד
+                    - generic [ref=e1283]: "| לפני 3 שעות"
+              - paragraph [ref=e1287] [cursor=pointer]: זו ההזדמנות להשתלב בצוות פיתוח איכותי ולעבוד על מערכות קריטיות ותפעוליות. התפקיד כולל פיתוח ממשקי Online וקסטומיזציות, עבודה עם קבצים וממשקים מול מערכות פנים וחוץ ארגוניות, פיתוח Serve...
+              - generic [ref=e1288]:
+                - generic [ref=e1289] [cursor=pointer]: + לצפייה בפרטי המשרה
+                - generic [ref=e1290]:
+                  - generic:  
+                - button "TAP שלח/י קורות חיים" [ref=e1293] [cursor=pointer]:
+                  - generic [ref=e1295]:
+                    - img "TAP" [ref=e1296]
+                    - text: שלח/י קורות חיים
+            - generic [ref=e1299]:
+              - generic [ref=e1300]:
+                - generic [ref=e1301]:
+                  - generic [ref=e1303]:
+                    - heading "JAVA Developer" [level=3] [ref=e1305] [cursor=pointer]
+                    - text: 󰅀
+                  - generic [ref=e1307]:
+                    - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1309] [cursor=pointer]:
+                      - /url: /job/37016050/dc831f54/
+                      - img [ref=e1310]
+                    - button [ref=e1313] [cursor=pointer]:
+                      - generic [ref=e1315]: 
+                    - button "להוספה/ הסרה של משרות שאהבת" [ref=e1318] [cursor=pointer]:
+                      - generic [ref=e1320]: 
+                - generic [ref=e1321]:
+                  - generic [ref=e1322]:
+                    - paragraph:
+                      - link "עוז תוכנה בעמ":
+                        - /url: https://www.drushim.co.il/דרושים-2284810-פרדסיה-פרויקטים/
+                        - text: עוז תוכנה בע"מ
+                  - generic [ref=e1326]:
+                    - generic [ref=e1327]: מספר מקומות |
+                    - generic [ref=e1328]: 5-6 שנים |
+                    - generic [ref=e1331]: משרה מלאה
+                    - generic [ref=e1332]: "| לפני 1 שעות"
+              - paragraph [ref=e1336] [cursor=pointer]: פיתוח ממשקי On line וקסטומיזציות. עבודה עם קבצים שנשלחים באמצעות ממשקים לשרתים של מערכות מתממשקות בבנק ומחוצה לו. עבודה במערכת קריטית תפעולית המשרתת את חדרי עסקות. עבודה כחלק מצוות מפתח...
+              - generic [ref=e1337]:
+                - generic [ref=e1338] [cursor=pointer]: + לצפייה בפרטי המשרה
+                - generic [ref=e1339]:
+                  - generic:  
+                - button "TAP שלח/י קורות חיים" [ref=e1342] [cursor=pointer]:
+                  - generic [ref=e1344]:
+                    - img "TAP" [ref=e1345]
+                    - text: שלח/י קורות חיים
+            - generic [ref=e1348]:
+              - generic [ref=e1349]:
+                - generic [ref=e1350]:
+                  - generic [ref=e1352]:
+                    - heading "עבור מטריקס דרוש/ה מפתח/ת .NET + Angular + GCP" [level=3] [ref=e1354] [cursor=pointer]
+                    - text: 󰅀
+                  - generic [ref=e1356]:
+                    - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1358] [cursor=pointer]:
+                      - /url: /job/37048407/64a11aea/
+                      - img [ref=e1359]
+                    - button [ref=e1362] [cursor=pointer]:
+                      - generic [ref=e1364]: 
+                    - button "להוספה/ הסרה של משרות שאהבת" [ref=e1367] [cursor=pointer]:
+                      - generic [ref=e1369]: 
+                - generic [ref=e1370]:
+                  - generic [ref=e1371]:
+                    - paragraph:
+                      - link "matrix (מרכז PS)":
+                        - /url: https://www.drushim.co.il/דרושים-4002125-ליאתמרכז/
+                  - generic [ref=e1375]:
+                    - generic [ref=e1378]: רמת גן |
+                    - generic [ref=e1379]: 5-6 שנים |
+                    - generic [ref=e1382]: משרה מלאה
+                    - generic [ref=e1383]: "| לפני 23 שעות"
+              - paragraph [ref=e1387] [cursor=pointer]: עבור מטריקס דרוש/ה מפתח/ת .NET + Angular + GCP איש/אשת פיתוח בעל/ת ניסיון של לפחות 6 שנים פיתוח full stack בצוות פיתוח ותשתיות בפרויקט יישומים רוחביים בענן.
+              - generic [ref=e1388]:
+                - generic [ref=e1389] [cursor=pointer]: + לצפייה בפרטי המשרה
+                - generic [ref=e1390]:
+                  - generic:  
+                - button "TAP שלח/י קורות חיים" [ref=e1393] [cursor=pointer]:
+                  - generic [ref=e1395]:
+                    - img "TAP" [ref=e1396]
+                    - text: שלח/י קורות חיים
+            - generic [ref=e1399]:
+              - generic [ref=e1400]:
+                - generic [ref=e1401]:
+                  - generic [ref=e1403]:
+                    - heading "data Stage Developer" [level=3] [ref=e1405] [cursor=pointer]
+                    - text: 󰅀
+                  - generic [ref=e1407]:
+                    - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1409] [cursor=pointer]:
+                      - /url: /job/37034423/e5ae7615/
+                      - img [ref=e1410]
+                    - button [ref=e1413] [cursor=pointer]:
+                      - generic [ref=e1415]: 
+                    - button "להוספה/ הסרה של משרות שאהבת" [ref=e1418] [cursor=pointer]:
+                      - generic [ref=e1420]: 
+                - generic [ref=e1421]:
+                  - generic [ref=e1422]:
+                    - paragraph:
+                      - link "Malam מערכות":
+                        - /url: https://www.drushim.co.il/דרושים-2928568-malam-מערכות/
+                  - generic [ref=e1426]:
+                    - generic [ref=e1429]: לוד |
+                    - generic [ref=e1430]: 1-2 שנים |
+                    - generic [ref=e1433]: משרה מלאה
+                    - generic [ref=e1434]: "| 14/05/2026"
+              - paragraph [ref=e1438] [cursor=pointer]: ארגון פיננסי מוביל מגייס מפתח/ת data Stage להצטרפות לצוות מקצועי ואיכותי, לעבודה בסביבה טכנולוגית מתקדמת עם מערכות ליבה בתחום הפיננסי.
+              - generic [ref=e1439]:
+                - generic [ref=e1440] [cursor=pointer]: + לצפייה בפרטי המשרה
+                - generic [ref=e1441]:
+                  - generic:  
+                - button "TAP שלח/י קורות חיים" [ref=e1444] [cursor=pointer]:
+                  - generic [ref=e1446]:
+                    - img "TAP" [ref=e1447]
+                    - text: שלח/י קורות חיים
+            - generic [ref=e1449]:
+              - heading "הרחבנו את החיפוש שלך לתוצאות נוספות:" [level=4] [ref=e1450]
+              - generic [ref=e1453]:
+                - generic [ref=e1454]:
+                  - generic [ref=e1455]:
+                    - generic [ref=e1457]:
+                      - heading "Full Stack Developer" [level=3] [ref=e1459] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e1461]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1463] [cursor=pointer]:
+                        - /url: /job/36969006/eac19a61/
+                        - img [ref=e1464]
+                      - button [ref=e1467] [cursor=pointer]:
+                        - generic [ref=e1469]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e1472] [cursor=pointer]:
+                        - generic [ref=e1474]: 
+                  - generic [ref=e1475]:
+                    - generic [ref=e1476]:
+                      - paragraph:
+                        - link "Mobile Group":
+                          - /url: https://www.drushim.co.il/דרושים-3336821-מובייל-גרופ/
+                    - generic [ref=e1480]:
+                      - generic [ref=e1483]: תל אביב |
+                      - generic [ref=e1484]: 3-4 שנים |
+                      - generic [ref=e1487]: משרה מלאה
+                      - generic [ref=e1488]: "| לפני 20 שעות"
+                - paragraph [ref=e1492] [cursor=pointer]: מפתח FS למרכז פיתוח, עבודה בסביבה ורשת מבצעית של אגף המודיעין
+                - generic [ref=e1493]:
+                  - generic [ref=e1494] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e1495]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e1498] [cursor=pointer]:
+                    - generic [ref=e1500]:
+                      - img "TAP" [ref=e1501]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e1504]:
+                - generic [ref=e1505]:
+                  - generic [ref=e1506]:
+                    - generic [ref=e1508]:
+                      - heading "Senior Full Stack Developer" [level=3] [ref=e1510] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e1512]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1514] [cursor=pointer]:
+                        - /url: /job/36831693/e2837e6e/
+                        - img [ref=e1515]
+                      - button [ref=e1518] [cursor=pointer]:
+                        - generic [ref=e1520]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e1523] [cursor=pointer]:
+                        - generic [ref=e1525]: 
+                  - generic [ref=e1526]:
+                    - generic [ref=e1527]:
+                      - paragraph:
+                        - link "CodeValue":
+                          - /url: https://www.drushim.co.il/דרושים-1953469-codevalue/
+                    - generic [ref=e1531]:
+                      - generic [ref=e1534]: הרצליה |
+                      - generic [ref=e1535]: 3-4 שנים |
+                      - generic [ref=e1538]: משרה מלאה
+                      - generic [ref=e1539]: "| לפני 23 שעות"
+                - paragraph [ref=e1543] [cursor=pointer]: CodeValue is looking for a highly motivated Full Stack Engineer to join our core engineering team and help us shape and build innovative products end-to-end. As part of a lean and ag...
+                - generic [ref=e1544]:
+                  - generic [ref=e1545] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e1546]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e1549] [cursor=pointer]:
+                    - generic [ref=e1551]:
+                      - img "TAP" [ref=e1552]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e1555]:
+                - generic [ref=e1556]:
+                  - generic [ref=e1557]:
+                    - generic [ref=e1559]:
+                      - heading "Junior TypeScript Developer" [level=3] [ref=e1561] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e1563]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1565] [cursor=pointer]:
+                        - /url: /job/36885045/f723f357/
+                        - img [ref=e1566]
+                      - button [ref=e1569] [cursor=pointer]:
+                        - generic [ref=e1571]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e1574] [cursor=pointer]:
+                        - generic [ref=e1576]: 
+                  - generic [ref=e1577]:
+                    - generic [ref=e1578]:
+                      - paragraph:
+                        - link "קסלמן וקסלמן רוח PwC Israel":
+                          - /url: https://www.drushim.co.il/דרושים-119570-קסלמן-וקסלמן/
+                          - text: קסלמן וקסלמן רו"ח PwC Israel
+                    - generic [ref=e1582]:
+                      - generic [ref=e1585]: תל אביב |
+                      - generic [ref=e1586]: 1-2 שנים |
+                      - generic [ref=e1589]: משרה מלאה
+                      - generic [ref=e1590]: "| לפני 21 שעות"
+                - paragraph [ref=e1594] [cursor=pointer]: ל-PwC Israel פירמת רו"ח גלובלית, דרוש/ה Junior TypeScript Developer אנחנו מחפשים Junior Typescript Developer עם תשוקה ללמידה ועם בסיס חזק בפיתוח Backend ועבודה עם מסדי נתונים. במסג...
+                - generic [ref=e1595]:
+                  - generic [ref=e1596] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e1597]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e1600] [cursor=pointer]:
+                    - generic [ref=e1602]:
+                      - img "TAP" [ref=e1603]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e1606]:
+                - generic [ref=e1607]:
+                  - generic [ref=e1608]:
+                    - generic [ref=e1610]:
+                      - heading "Senior Back-End Developer" [level=3] [ref=e1612] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e1614]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1616] [cursor=pointer]:
+                        - /url: /job/37027431/d7fec236/
+                        - img [ref=e1617]
+                      - button [ref=e1620] [cursor=pointer]:
+                        - generic [ref=e1622]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e1625] [cursor=pointer]:
+                        - generic [ref=e1627]: 
+                  - generic [ref=e1628]:
+                    - generic [ref=e1629]:
+                      - paragraph:
+                        - link "יוניטרוניקס 89 בעמ":
+                          - /url: https://www.drushim.co.il/דרושים-1638772-יוניטרוניקס/
+                          - text: יוניטרוניקס 89 בע"מ
+                    - generic [ref=e1633]:
+                      - generic [ref=e1636]: איירפורט סיטי |
+                      - generic [ref=e1637]: 5-6 שנים |
+                      - generic [ref=e1640]: משרה מלאה
+                      - generic [ref=e1641]: "| לפני 22 שעות"
+                - paragraph [ref=e1645] [cursor=pointer]: About UniCloud UniCloud is Unitronics’ cloud-native Industrial IoT platform that powers real-time device connectivity, data analytics, and remote operations for customers worldwide. We...
+                - generic [ref=e1646]:
+                  - generic [ref=e1647] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e1648]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e1651] [cursor=pointer]:
+                    - generic [ref=e1653]:
+                      - img "TAP" [ref=e1654]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e1657]:
+                - generic [ref=e1658]:
+                  - generic [ref=e1659]:
+                    - generic [ref=e1661]:
+                      - heading "BI Analyst" [level=3] [ref=e1663] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e1665]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1667] [cursor=pointer]:
+                        - /url: /job/37026348/2f6a9407/
+                        - img [ref=e1668]
+                      - button [ref=e1671] [cursor=pointer]:
+                        - generic [ref=e1673]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e1676] [cursor=pointer]:
+                        - generic [ref=e1678]: 
+                  - generic [ref=e1679]:
+                    - generic [ref=e1680]:
+                      - paragraph:
+                        - link "Yad2":
+                          - /url: https://www.drushim.co.il/דרושים-1477861-קורל-תל/
+                    - generic [ref=e1684]:
+                      - generic [ref=e1687]: פתח תקווה |
+                      - generic [ref=e1688]: 3-4 שנים |
+                      - generic [ref=e1690]:
+                        - generic [ref=e1691]: משרה מלאה
+                        - generic [ref=e1692]: ועוד
+                      - generic [ref=e1693]: "| לפני 23 שעות"
+                - paragraph [ref=e1697] [cursor=pointer]: We are looking for a BI Analyst to join our BI & Analytics team. In this role, you will work closely with BI developers and deliver actionable insights to stakeholders. What you wil...
+                - generic [ref=e1698]:
+                  - generic [ref=e1699] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e1700]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e1703] [cursor=pointer]:
+                    - generic [ref=e1705]:
+                      - img "TAP" [ref=e1706]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e1709]:
+                - generic [ref=e1710]:
+                  - generic [ref=e1711]:
+                    - generic [ref=e1713]:
+                      - heading "Full Stack Team Leader/Senior Full-Stack Developer" [level=3] [ref=e1715] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e1717]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1719] [cursor=pointer]:
+                        - /url: /job/36836329/8b80b63c/
+                        - img [ref=e1720]
+                      - button [ref=e1723] [cursor=pointer]:
+                        - generic [ref=e1725]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e1728] [cursor=pointer]:
+                        - generic [ref=e1730]: 
+                  - generic [ref=e1731]:
+                    - generic [ref=e1732]:
+                      - paragraph:
+                        - link "אביבית דבוש השמה":
+                          - /url: https://www.drushim.co.il/דרושים-1300154-אביבית-שירותי-השמה/
+                    - generic [ref=e1736]:
+                      - generic [ref=e1737]: מספר מקומות |
+                      - generic [ref=e1738]: 5-6 שנים |
+                      - generic [ref=e1741]: משרה מלאה
+                      - generic [ref=e1742]: "| 19/05/2026"
+                - paragraph [ref=e1746] [cursor=pointer]: Senior Full-Stack Developer 5+ Years of hands-on experience as a full-stack developer Proficiency in one of the common frontend frameworks - React, Angular or Vue Experience with ...
+                - generic [ref=e1747]:
+                  - generic [ref=e1748] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e1749]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e1752] [cursor=pointer]:
+                    - generic [ref=e1754]:
+                      - img "TAP" [ref=e1755]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e1758]:
+                - generic [ref=e1759]:
+                  - generic [ref=e1760]:
+                    - generic [ref=e1762]:
+                      - heading "Senior Front-End Developer/Frontend Team Leader" [level=3] [ref=e1764] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e1766]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1768] [cursor=pointer]:
+                        - /url: /job/36836386/e029d64a/
+                        - img [ref=e1769]
+                      - button [ref=e1772] [cursor=pointer]:
+                        - generic [ref=e1774]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e1777] [cursor=pointer]:
+                        - generic [ref=e1779]: 
+                  - generic [ref=e1780]:
+                    - generic [ref=e1781]:
+                      - paragraph:
+                        - link "אביבית דבוש השמה":
+                          - /url: https://www.drushim.co.il/דרושים-1300154-אביבית-שירותי-השמה/
+                    - generic [ref=e1785]:
+                      - generic [ref=e1786]: מספר מקומות |
+                      - generic [ref=e1787]: 5-6 שנים |
+                      - generic [ref=e1790]: משרה מלאה
+                      - generic [ref=e1791]: "| 19/05/2026"
+                - paragraph [ref=e1795] [cursor=pointer]: Senior Frontend Developer At least 5 years of relevant work experience Experienced in building responsive and large-scale front-end solutions using modern frameworks (React/Angular/Vu...
+                - generic [ref=e1796]:
+                  - generic [ref=e1797] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e1798]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e1801] [cursor=pointer]:
+                    - generic [ref=e1803]:
+                      - img "TAP" [ref=e1804]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e1807]:
+                - generic [ref=e1808]:
+                  - generic [ref=e1809]:
+                    - generic [ref=e1811]:
+                      - heading "Senior Backend Developer /Tech Lead" [level=3] [ref=e1813] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e1815]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1817] [cursor=pointer]:
+                        - /url: /job/36893671/6c0d3242/
+                        - img [ref=e1818]
+                      - button [ref=e1821] [cursor=pointer]:
+                        - generic [ref=e1823]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e1826] [cursor=pointer]:
+                        - generic [ref=e1828]: 
+                  - generic [ref=e1829]:
+                    - generic [ref=e1830]:
+                      - paragraph: HighTech Company
+                    - generic [ref=e1834]:
+                      - generic [ref=e1835]: מספר מקומות |
+                      - generic [ref=e1836]: 5-6 שנים |
+                      - generic [ref=e1839]: משרה מלאה
+                      - generic [ref=e1840]: "| 18/05/2026"
+                - paragraph [ref=e1844] [cursor=pointer]: · Take full ownership of the backend architecture for a major application area · Design and implement scalable, reliable, and maintainable backend systems · Lead...
+                - generic [ref=e1845]:
+                  - generic [ref=e1846] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e1847]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e1850] [cursor=pointer]:
+                    - generic [ref=e1852]:
+                      - img "TAP" [ref=e1853]
+                      - text: שלח/י קורות חיים
+              - generic [ref=e1856]:
+                - generic [ref=e1857]:
+                  - generic [ref=e1858]:
+                    - generic [ref=e1860]:
+                      - heading "AI Solutions Architect & Senior Developer" [level=3] [ref=e1862] [cursor=pointer]
+                      - text: 󰅀
+                    - generic [ref=e1864]:
+                      - link "פתח משרה בחלון חדש נפתח בכרטיסיה חדשה" [ref=e1866] [cursor=pointer]:
+                        - /url: /job/37042061/77936c98/
+                        - img [ref=e1867]
+                      - button [ref=e1870] [cursor=pointer]:
+                        - generic [ref=e1872]: 
+                      - button "להוספה/ הסרה של משרות שאהבת" [ref=e1875] [cursor=pointer]:
+                        - generic [ref=e1877]: 
+                  - generic [ref=e1878]:
+                    - generic [ref=e1879]:
+                      - paragraph:
+                        - link "אומניטלקום":
+                          - /url: https://www.drushim.co.il/דרושים-20979-אומניטלקום/
+                    - generic [ref=e1883]:
+                      - generic [ref=e1886]: רמת גן |
+                      - generic [ref=e1887]: 7 שנים ומעלה |
+                      - generic [ref=e1890]: משרה מלאה
+                      - generic [ref=e1891]: "| 14/05/2026"
+                - paragraph [ref=e1895] [cursor=pointer]: אנחנו לא מחפשים מפתח Backend או Frontend סטנדרטי. אנחנו מחפשים AI-Native Builder. אם את/ה חי/ה ונושם/ת פיתוח בסביבת AI, בונה מערכות מקצה לקצה תוך ניצול מקסימלי של הכלים המתקדמים ביותר ...
+                - generic [ref=e1896]:
+                  - generic [ref=e1897] [cursor=pointer]: + לצפייה בפרטי המשרה
+                  - generic [ref=e1898]:
+                    - generic:  
+                  - button "TAP שלח/י קורות חיים" [ref=e1901] [cursor=pointer]:
+                    - generic [ref=e1903]:
+                      - img "TAP" [ref=e1904]
+                      - text: שלח/י קורות חיים
+          - generic [ref=e1909]:
+            - generic [ref=e1910]:
+              - heading "חברות הייטק מובילות באתר" [level=3] [ref=e1912]
+              - iframe [ref=e1916]:
+                - link [ref=f30e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsv5Xk4Z9v12ZO9ibD6oWyzks-3u16AgaSiqU9wjSOT9g6qtyHD8jASSjCiI8-Lyu5p9hJQ0WM4jP039rWPX684hPhfd3TiX0vrr2qYX-PlTenIOr6_wIst6uAg3SMiVONDbNkindFYtlZwrhpwj-cPjDIkzK5_Nl83lmkgN13co19RdQ7yrZ4KrWM7ijNcs8IWGhTUkY9OdhgOPwSUcXJ0MSD2O_7kIvdSec8swGNpjsvZH9qw-6tmddSPgha6V3J7CKIVUNx_cfG8FIgVGX1dcqEikRAvAfSqNlM7i1q-zf7Oesw0F8DH1z6PkipOfjYhIrRiCPbAs1OPWIdfwsEQw1_oO2KJBzRy8P6R3f3TpaiOk1CXgHQZJ5neIW8GFjL5fUSeIwim6bmfgYA&sai=AMfl-YT_CXHfXp6xZWKW3M5nKcWGiGyEZYGZFUky8igBdZEj_vjxk-qPuPUAOrCo6SF3pkWYUE9vxP-zjNYgGXlmcE9BtKXWt2qI6av5NhxJgEYbRwPabLAEytcQ3O7uHEHgwgKXBlmVaJmXrgR41lNESCRKtGqyBdlQab9w9WhBp4RJkhaxNszLWOepY-izMV4lBEi4wx28lM6M4KNAi6WJS5Lg6-kIv05d4m_heGEOYyRDAz88ufogElHXbr-RjvvSRkkE_Ag1l2sRD2waV_csiq7plx56GFvA_1cK_YFlQimEX_G5TVvmtK53GtXJ85WxJohCFwOnZezOQPdi_P8Cta-WcV5mXLGRZDVFDLfpZpowtMmuG-a5F3w&sig=Cg0ArKJSzOs0mP0vVsBy&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/CzppZ
+              - iframe [ref=e1920]:
+                - link [ref=f28e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsvjX67xV1paUsyiQHfTpeuIhNW8maV1jkyLnpCgFZpmH4IiHlFsS7H8jhQasMv-i7Z6nzBGwx-coflkkG4H3YS-GOVZ9NiDpX2_EFneojx2XZQBiCjVz0CIU6b9-zgiVBsFNMO0gPASClivVaHDRGg7_9tqbwdyh76QTfD9tTzGRR1NVnp5QKSKKwKR1V574BxTzlylzD308D-QgUXT0VuDyJeauG-TxOVbfJ7Mz7i6YW18-81XxhCwFeth3gUImzvtdQuZ6pND4glsWwsdlKXL6HAU0HsRfe9OyusvWy5kYASBSsnbp9xYdTPoLCnrQ-d-GUht76jnBee9vKTrP1rEAjKh5RggI4HoUr5nXnsTuYdjMF2-AeIh3Wsk77xYmvvdNbjFqK6Rd3CDnQ&sai=AMfl-YQHDFnVOKRPE_9r2B76TOzHnJ0546FeKCWVRB8bE3zp7OPRCRFjjoLbkwgHnXlMCFy-slQt3sSvfq2voP1DA4Oz3cZ_J4bMkfxgNiE9d4mWxPGA_xkjGlPf2yJ-385JSBmMMhSa-ycAV9aq_NS8sa_7HCKBydcbhnNI8XtAb5BuNMniblkUoU7KC9NH8fTLqzNuJ4LBJwyvmC2kqz86yqgk4jFYzlEKjuXWi4w_y1LdybD0ySQ-T6fUpIy9C6ugEZrOyb1uaVnxChbaU6Sunh3QwrVcImYsRh22hagiAVLCUNs0VztY92jsQuW_RM8BVazJljMEvXjDG1xTvQmzxvVNOb15aagUD7BNi86k5UdYPVHPAgabXGg&sig=Cg0ArKJSzNlGB3O2JyyR&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/pNLTa
+              - iframe [ref=e1924]:
+                - link [ref=f32e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjss2xGisb1Aw416dyVRRx5CJ_uL7gOqOvkGRGC5TqVIESi_kxaAMBzXxQy5opbqTmscbv5Y6mwUqvXBod5EDyRjX9sZE2QyJiaSa_REGUpZ_t_rrWJmQDh5HyMHkYyt62OwbFjM47OFSW8mw79JoHGmjihAlnwECbTQUfi1auGSW8QaNWwUgpZHKqT0qwqbIynxb8ikbECP4VmC6pNf3AOdW-s5m3dYDMYWSn7Ls50Zxsipm5QUOf9OtdcoMJXrA9782ysFary1DmT1Vcg2TpA6TKl6akVY3kx_XdxNcbcxIdEpbeeIIxmHO06BrOS9bglWI7zo8h64weKU7lAOT14ZPCgO8U_mN3-FvmdTfVGRFEtLQsotm0DRafoQQxUB8cjVJwTQIF0bcLGtQ1w&sai=AMfl-YStEf03BxaK-qU_Yy8PiCIjN2iugvEScK9baU3gxkRt4OO2GZReCrJxI28b7mcNkYnQe4no-MPVjwyOJodT_scGpQ6E7uRLJ0l7EzCkqrdOi7QJZaDseH05RWLLVDUsLOf7ux27Jq4sn2Rf6YVD7a7_Hdl-pFu5GDMNGkIqf3mLHOjXzXMBJwrzCnQv8HzYlK6pTsvTZ-UQSyYIaqZ28_m9XIkjXAQXBm-IEwdAXAR59y1hNlrkIuD3560AgZfR2pTQBXXNLVe26xbw-DuMuDUS81EnAn0YB3Hw3X7xh8ZeJfzNILvXMeN4N38SOSq4wBIbZjl82fsWiaNxHI0vY5A69Sf7n_OyNjE0F1l3TRlxaP5MOEThQ-0&sig=Cg0ArKJSzECbei6B2RZn&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/mknGi
+              - iframe [ref=e1928]:
+                - link [ref=f29e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjstzeERjD4HAPiSYgx3aZMzyC_GI6ELF-a-NkqkiWmf1eq93t-3tz0SpzSi_Mt8TqQP-9bXL01XK8cz0gz1jlI8LGn2IET2GpG0EkJJ97dPlf5Ff23T261Z5HLzFS5Gw0mm3AYX48jJkI3YO1z1OEpl6V9ayF5jZaxY1cuhMuAxeUG3A3ECb_cepBuKBY1lDlnolM7wIHxVN8OudgbECszylJ8trtVgMrv8jV4G8iC3ejKXkYDryMAh4A0Yoxq1uFzpStG0XSG2ORjvoXbmKBGLNm-EIUQ4Nm0pZ0BV5XPOib1VK6hfcrRKUm-VpPEi2IO-oRMuCHl7U6U11PfbxK16mAr7A89axw4TgL0I8v4fIGdGbefikGpof31NuYzR3PdxaWPMw_9lbsAvhog&sai=AMfl-YQX6yt8xuhFH25l0NWyllkTMgGHlz4cxbmNnih70AWtGHQ0_aADe8uA3TobOWe2jeioTdyIwb-45NCQ4xn6VdtS6e_WS-O2yNkHSg4CYRVHH1a1X_-9zyDY85SYi9hETYuW4c5qoprH6SutF4ALnAsuedqg5NQeJa5OMXKHYIr_NUvLJNcZTc9Hg1kZlv5s-uPir_KxeHBl8IVAb4MrM1I6PccOmOZucnWzR-JNffy6S1AFH6q_HQlhG0QKvu-IYgWo-AJ47fivTrAcO4K1pMqnXnW-6tdp4dY7yQqF5jmCXzLaMswFchC_SP6iZTZ2wRqJQl4nnn-QBqYW2tKNrOHtg5YNVhPYba6HzaK40qpWIuyHdxEIxeQ&sig=Cg0ArKJSzHPpRPXOEQJj&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/x0IBW
+              - iframe [ref=e1932]:
+                - link [ref=f33e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsslN_CHSl-0Vre86u-KjZDvRr5xi7VMGfTMitcl-gAhzs69DC9DGStoBUoow1hMeuSp68ERc0PSvEdmxqiBZKc6kBPqU5_bHgT9E_5XIaFF2E-bpmBkNYensxJDztAwb4_haJ2jpVCQQKw9qngvmve37PlXAkpYyGsEhn0nKbt8i6kqMqQvMmojNoFp97wJcuA00zx2r79YLVUmmzg1qY3RgZ0WQjbnQlh_76d27xYd94d2lN0sBAGfj-v4-qj8Lf4jmy6ZwsyseTtGu24L-_fgu9sMd0VQKZfjnfkIQ-aQom9WDSv5YoYM5HxjH8qWAb0gwHEcszr2uZ6aUgnY-SSKh0YheRuCmVqgwEOA67dzbwp7aso43R1oBR1I9g1QPqrBivSXzDw20hLjxQ&sai=AMfl-YTG2eTxoeNRN5ve_GAPzmWYJmShpcMzJPmy_52CAZ-knfiiF8AXYFdTJAFgP3g0GoZ78H6AvMK68Q3YniD5H20uG5sPjLr-znl4e_XDgb_i-WNfOPZq9x_iYV6VBSy9KBCtBE9GSsunN9OXKbAlJuk7BAbPVE3f6P-fo3yx9DOcZ-kh3YKoHgZXDML91xcfPIzS8gaW6OtlDsyJJBEyvo3ZdQ9wGxnyfzOMoKWE3Za-5YfZFk7196_6i2Xpq6kTc-jixe1L7R5176bUgFRohEaPRctjMN2uHUMtnjam9j3jKSV1uNeYWakIBGXU71tcS2qZXat0znnmg9sS6lvf3kqit8UVRVHVpEhC7yQf5H8umw0JgfJPwqM&sig=Cg0ArKJSzD4ARQaGd-I-&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/kfObN
+              - iframe [ref=e1936]:
+                - link [ref=f31e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsuENxFKkPEiYPP7ogD3e-HSj7Ka_3lHYWlgge15qaE2iNmcgcyGorkoraIqEm4-zW4Rsttpcp_JJul5EY8vsOdu8jghgSfzTDXagnaPnkWsxirNzOx8N9T5BL4aZzDP9QKnX5mu0CBJ8tfLQnBVQ1CsDAR4Y6mBoJ_gkTmk_m9Z6jqdggbbNvR8CLpSPvCXSvmeIF2PtGrX5YbAXRnfsvAWvSaF383o3pdzjgoZoYFzVUVgr5aug7rP54w73MRbx4IA1QFEj_dVlLHNPSvXIDFrvByFu9U8cKqH_SAqVZ9PwXYsbp7tJ6hER3gH9pTh-ANCOJgaYZobgOFW6xQ8htdVSgGGzyw8TC8I3rgquXVGIF6dSY0wTfbBM_xcsH5jaaIrqKzzLwj-WR2k_A&sai=AMfl-YRUY-c_n-wAnVhoXJw_zqM_iAwILnE3mnL_cbWOHwUcewR8WUh9ToN3h9VN64rzKF6664yfGa2YEIcrHOUup0aEhLeQetmQf1LBzhPD95bR8E8D98-U72-tjvwjsQ7Ahp-nnKr-vXNtu41DF8qaHtQtMUaJC6ZvgGNMMPzSbdu4PGzMXd-35In-imCEZRVnq6-RXsVDgelM3oryEymB1nHRi7C5fuMfo91dY-UzhTUEyAKLn33oL_gl-sfBuAOaX-uWF0WuKwKMieCbd22OVTRvjCHmoI7RAy7MauCXyD27lrO4BQJhHe-do_FT5-_NqelCfxaxpzimlyD1mbDUMtjhSCNJcIQ_n60aKg9PXL7vjushAIev3Dw&sig=Cg0ArKJSzGn2KVkjzvXu&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://tinyurl.com/4kucf9yw
+            - generic:
+              - generic:
+                - link:
+                  - /url: "#"
+            - generic [ref=e1937]:
+              - heading "חברות הייטק מובילות באתר" [level=3] [ref=e1939]
+              - iframe [ref=e1943]:
+                - link [ref=f34e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsuPNtGOAmSZm-FH3IBtS5cJ_PXq0_A0rAWW6iC5nymwh3g6oLpPmzSBWdP3MMhoKAUTXxc2hsJj-t14k6Yb91EEx8uilmdXH_KCMA5SPjz0NhFQ9X42WGa5tKihK9OBfWlH0GsMIl1tdnNpylO0HMPRbNIxAvcqOy1JPVPGcLkjusd8tMOnblbID1fLasZsIgm__nUJ1WAkUTzComtQ8fV2DGQ25rhRnJeedOkQjzlQNpDgHkaYDtaMaxdeJAoJElf5FG6lPSBJjOVYHEAeCH7SC4iDZxBCj8BIqBsJOJuHSMdRh2O0xL8ivvztrGu6kYg62WRWcLmy46tgDGxaALvuBlfehA8u-Ryybbc3BCNMAvH1yTUK9cXYpTqvCEmG8360zlpvzyQ1sB7teA&sai=AMfl-YRTWViZnFSbAfHh-zXkvgyZgEAEvbTKKnlb2D1bK94rO7VOx9nDxwHKtagUZPYlWKIxzURjHRp7e1hKB3S7Z6y-TnZcLVgNCeNhsLaU87P8kN2o-zer7D2kA_yGq0I3rHtLY9ZSyNix4FSCh-vo9a9FsD1wIG1VgOglWyZpUCp2NwLtMDvKml58c9vfsmXWWLbOJm8usUhPEuLS0YFd16gkZ4FG65Ig2jedP3anfZHYHixKe5vQkJSQxDxywmTlkuATZc3Yv2OiMnaqg7oKLu0PtlIkg_IUpZ8McB9ePO1LQyfiKeDey1kcBFCQ0WleKC1lK_F3Yr3J6G4JCqj5gmZyrBqElrrf-r2WyQp8XI8_Mt3rBTNOEXM&sig=Cg0ArKJSzMqqYOFMipZy&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/CzppZ
+              - iframe [ref=e1947]:
+                - link [ref=f36e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsuiQWU9C1aCmgdL6XhdJd70Mfb2ve92uKkl7hCJ-pXph39M1_AfITm5dqX1NEePKR8L9I_LxfaUON7GZxAdcayO0trJ3RpX3K9dah_sIowcjJCBkJkBEkSjdYV35yNlwyf4sucj-hXR-nE1dg8nUj-ZK71X1vuznLTNPG-jsah_bKUP4MJI7ljxBHktdYHfIZRPql3H9Ev4ZyQvHT7MxI-K6RQqyK_hxeqDSXMXQHnLMcj3jVdBd1uRcCKzAdt18ppkuNxodDdQzlY6S0mnDfzgL4lPS3fq1SvU7oTl2BoVHUtg75qtpnBStuapdoa9D73AmavG8ueoo_zrytegjzRUXOAImvlclYwE7d7x6iETDZwIn8wkawlz5xpMXIKxYFsodzryXd1yoy0xag&sai=AMfl-YQNMM5n6h0F8EAQjYbISBoAM8PPHVNL7RQB4WDVpnDRR8GgmHd9vgJaWjzYeubNGpbqzWsG_L4-KoPov1njGvyK4-rnvIwjMWMO2mtAaEyEwQfk_9NMYC2H2zWhEjqpG87kBkshTJS9lI1gscNgNLUJdbwEEYkwTqFJ6AN3s4HdQCGAAIdJcWi9G7JsaGPKi986v3bgNYNOTVsBSvwnWz1haV102v3JCT13fw1-2VKcgGIJk5kv-ZnwV8KolCh2KQegnv9bar7sJBFclTcCdkVhWoW36r6J9svounkYIaDtElqNtjRK2qy6b4WOQfmPAzQV57CHYgX7T23_tFMR-pUCdj5AkDSJChjGEbBxNyskR5aDNu0v_OY&sig=Cg0ArKJSzCZMCyPHXsNU&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/pNLTa
+              - iframe [ref=e1951]:
+                - link [ref=f35e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsuQX6kMqqJqmuCzEUyM-DrCcL20eGy5CMiBvcfQrkLVfyn8L0jXxUQfw8Yp2PdUj1RvQa-h2m7ZjuuDKAFQd6vX1lUfAi9AXCpCwx3S5J9SyXJwMUqBFeABwfqfi-pLIEJzTiZ0640geqGsPPimCa3-xtqXrxoynMASP464JUrynxQtrikjKVyZInGk-2WPT27zJn3YmxFQeeyr-wrkPIajv14-X4UxFNhJH-T1pJgurL6eG7T6NqOmwwbNEIBEqaobcFoYtx0zQBvvV7Z68dwHD1zAdOvXl2me06x627_HN7BOdKBg84LQxX0pTNrgl4Gk1a7IDVveISCA4ETLm-yWTPfF6TC0H35vu_brhK94gh32UmMRNPEp-xeUmxmIZg-zo95jD5DLhOkDFQ&sai=AMfl-YR_osx6nzq5hekTS0s8r_rFxPp8UtE2YJ3xcR4hhQ2WVLgsMgtkEkPUw3OQg9S4TCeQXTjUPOv3Bpwcfh0UsCY8XFBSYJDUIFSzcJPCP965fctCabuUsZNGKtiMCFKOyrja_Vf1FjztMTGWl1vdGVJHbSrCop4qG9sRxEM-xQypEmkGG7N8sQe5-0hvTiSf8zxo2jPW0K9mn-JDBm6Px6Kf1JCr2zkMJkRZAYaE4j3zxPTlkZfeh6dX9Yly36eAbnRIgPEnzFrwoq1obPq7pfezijMCZSmyJl4I1_UenDPQKkWskEPp6UPkCHVYkL9oz7wYSnoLIhWUsx6e0eKj-NQC5wyeSGAKp7SnCA6LyEq85RLwqqUre2Q&sig=Cg0ArKJSzFuq9vZ8iD9U&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/mknGi
+              - iframe [ref=e1955]:
+                - link [ref=f37e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsvSw0UcoHRUImVLUnAJatix-BNfUj81DZFWoDgtI4hEE9y4TC5oX12XknTnI67H18PcKVrFIc2iJSQAjP6qdAaI1jgOmYoKx4YpqdfXjE_Wga8g3Ni8fiqBGkDTfNeEDnmAb1xpS2iaJUIHZFTpzXnm3GmqCNjPZoxPdRdhKZNMljpm_MLci6ZuEBDahSJicCPECZWEEP8iPtSr7rvB1TTwUu6vK7puDA5mGCyHpNp57TAeOByPFA74q7pq20nmBoIdOsVVlgCFT6cvqeysFABsNHC1sDTs2xC6nYmYXkO_t6Q5Le-AfqHmZ8wySXTtdQe2iYb956zt3jXLcWXz5pe34EvjFdfp3DSzDw412kA6WxYiiX3hci5X-PkSYZWgyjhIehBbnzn6cMaO3DU&sai=AMfl-YSUydw2r6Jiv2i7D3BQsxI_NmLRYMkwMp70fkAdvpQCCI9Py8lgYNk1AyJHXNRIZVxjVESJ8OFF2rlM5poBTcKRmoAP1opT91lbT-tSnRFD33jvVT8IogNEDsRvj-YxHYjxy5ZuaVpfxWLCImrkgWZ8qwjxFe_i1duCleLQLmedNl7Q5HIdhQ9DJGY2jNINBlfSL3Ptjn_phpRJvL3w1Cda139R_r1X057LJoGFTzaY_6J6hHgnlxiMH380crBkXRNr4mt_DqoLgt0sEgSVrGwWmh0CmP8Fa6h4XV06si5qnwlOIliegtuZl30dq2VOIL3dA1HTsRwfM6kC00LxhtODKJmMpah-s7MfaKIDxLA2kWwouQT5Yho&sig=Cg0ArKJSzKbL4ozMfucH&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/x0IBW
+              - iframe [ref=e1959]:
+                - link [ref=f38e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjssafIAgacSXQPmSjso4lqyBL_TLVAIJ5Pjgv91aw5qiOxEJJz99rBAFsy813XAkP5wMfInqDfn0OIXLltpaVCwFHAB3YJbLdZv6UB7c0Fl4h1dyy-CxUt_j-Hxzm7WDQYzQXSOubPF-EQjI1ggHdVBiiAOVsm8DO5oNBpN3lTsBb_3iKHCyjj5ExJ4bgj58iwZaT0FqGOgfYkaqEp1FrJTTlcVn2RzoPS2akOFN5va5SOY-7G1Yu9xfNqzk7PWF2JAYqK5PwxobojK84EnEFSS6h-n5AEoMuD3G_DISCWfIxP34y95Mky_dTWn8AVibu2FLWttn6UeuP2sRfInaN3tLVYzoPq52-agzwQhOG7sFhKJJdsKSiXmGxnjaPyDv4EhUhO2DjKHIKdzZuEU&sai=AMfl-YRCwWIvVn2pt0_Rp5gpmJCCmPm4UC7O0gPXutav9mR_S6V-BCQvKNEJUeQNcLP69t2tgcvVBsaYt65Qkcff_ZqdtRJ6LKmiOin9QY16R7FW3cEAfbmEhF4P8HAYLXA-WzHtuwwRDxPpsxIMsO6UPsj0uKQKEGHpuw3kDBgMnpuqldgkA0W2wBQNvZzZUl16RDNbzsq3KiKwFYhRujkz40EaNOlz_LgOShBrhZddBumQXhKso5LvnaHZCyrLkuKVPTRxMrN-2RzHf_37V1zHSBHoAI--ORZdpB7S6SQA5j6LwNbxuzGfXb2QwNrMhfQarP_KJnN1pu_my4nxzAcrSH2KtImkRuyjc0beAsVQP6oZ7OST0cC05l0&sig=Cg0ArKJSzDcQFsYgOHVM&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/kfObN
+              - iframe [ref=e1963]:
+                - link [ref=f43e2] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsu5jFygPN2JBXt-lpfw35lxGH85UvhhA5n02M7i5ia8IjZHR5NysqNmznxjUzU4pXBLSOlHHgWBUVFu9rMpfubz1rQwDXqHIHXZdkKsRxh7KJYpFEb538a7G_fA5mE2JmoHnSwLFQlXVRjBy0KNFj_BnT6gqZ9SgTsVqBOBi5voqMgJVmJQ-4xQfvH7S2hbv-J_FC8Q7E_baKjzx0xlIVcBRRH8m9cZB0KFU4SiLcSJYsXkMSxXxLLyu0wkeDlPnOBMSKBOtrx3EYq8OUMHP3IYgvW0_gfMWAZxebNRYZcoXTtEKliiqqsQAMRMw_NGDRRk4bigEtSOU0jUnNH-ij7Iu7FRcRw7bIpsgQTp6wRzBa32H06w1RtQFX4wuFnPn_yLyK5z6a2GCwG-kxo&sai=AMfl-YTX4c_Mla-xMk89w7lNcd8IG91AKbtIlL4E2G29YSvlepGrZOGU4jBuPYTPHRDLXYjc2zmWPSZziC00seh4eDqiQ62tkzDFg1A9p6Y4QBplfEybKbNWc5JWvPp1NwRYdPTQXPbu6xuskhm58kNn5czcyLtvk4ZYV0TuX5_fn9cmsR8m4f_pNdc9TKhzfwCApK0JE5oP6E6pfemYu4vfF0RQ3Apv7QbzmKdHat8Iba27z9f8qvbhcQ7kasuWGBASiE4E18qVCV_pPP2RUasMpOLYxn9b8Y-OOOOLtdehaQXlKXE4sZoRFl0TU_zNRhonCSNcyGfrPyT5lzKGETM4fiWzuSW8AWnXiR0WX8aiHonKovAVS4G5cKo&sig=Cg0ArKJSzAfpfaPJVHP5&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://tinyurl.com/4kucf9yw
+            - generic:
+              - generic:
+                - link:
+                  - /url: "#"
+        - button "הצג לי משרות נוספות" [ref=e1965] [cursor=pointer]:
+          - generic [ref=e1966]: הצג לי משרות נוספות
+    - generic [ref=e1967]:
+      - generic [ref=e1968]:
+        - paragraph [ref=e1970]: דרושים IL אתר הדרושים של ישראל
+        - generic [ref=e1971]:
+          - generic [ref=e1972]:
+            - paragraph [ref=e1973]: דרושים לפי קטגוריות
+            - list [ref=e1974]:
+              - listitem [ref=e1975]:
+                - link "דרושים כל הקטגוריות" [ref=e1976] [cursor=pointer]:
+                  - /url: /categories.aspx/
+              - listitem [ref=e1977]:
+                - link "דרושים אבטחת מידע" [ref=e1978] [cursor=pointer]:
+                  - /url: /jobs/cat30/
+              - listitem [ref=e1979]:
+                - link "דרושים אדמיניסטרציה" [ref=e1980] [cursor=pointer]:
+                  - /url: /jobs/cat1/
+              - listitem [ref=e1981]:
+                - link "דרושים אופנה" [ref=e1982] [cursor=pointer]:
+                  - /url: /jobs/cat32/
+              - listitem [ref=e1983]:
+                - link "דרושים אינטרנט" [ref=e1984] [cursor=pointer]:
+                  - /url: /jobs/cat28/
+              - listitem [ref=e1985]:
+                - link "דרושים ביטוח" [ref=e1986] [cursor=pointer]:
+                  - /url: /jobs/cat23/
+              - listitem [ref=e1987]:
+                - link "דרושים בכירים" [ref=e1988] [cursor=pointer]:
+                  - /url: /jobs/cat2/
+              - listitem [ref=e1989]:
+                - link "דרושים בעלי מקצוע" [ref=e1990] [cursor=pointer]:
+                  - /url: /jobs/cat3/
+              - listitem [ref=e1991]:
+                - link "דרושים הוראה" [ref=e1992] [cursor=pointer]:
+                  - /url: /jobs/cat7/
+              - listitem [ref=e1993]:
+                - link "דרושים הנדסה" [ref=e1994] [cursor=pointer]:
+                  - /url: /jobs/cat10/
+              - listitem [ref=e1995]:
+                - link "דרושים כללי" [ref=e1996] [cursor=pointer]:
+                  - /url: /jobs/cat8/
+              - listitem [ref=e1997]:
+                - link "דרושים כספים" [ref=e1998] [cursor=pointer]:
+                  - /url: /jobs/cat9/
+              - listitem [ref=e1999]:
+                - link "דרושים לוגיסטיקה" [ref=e2000] [cursor=pointer]:
+                  - /url: /jobs/cat21/
+              - listitem [ref=e2001]:
+                - link "דרושים ביוטק" [ref=e2002] [cursor=pointer]:
+                  - /url: /jobs/cat20/
+              - listitem [ref=e2003]:
+                - link "דרושים מכירות" [ref=e2004] [cursor=pointer]:
+                  - /url: /jobs/cat17/
+              - listitem [ref=e2005]:
+                - link "הייטק חומרה" [ref=e2006] [cursor=pointer]:
+                  - /url: /jobs/cat4/
+          - generic [ref=e2007]:
+            - paragraph [ref=e2008]: דרושים לפי קטגוריות - המשך
+            - list [ref=e2009]:
+              - listitem [ref=e2010]:
+                - link "דרושים מלונאות" [ref=e2011] [cursor=pointer]:
+                  - /url: /jobs/cat12/
+              - listitem [ref=e2012]:
+                - link "דרושים משאבי אנוש" [ref=e2013] [cursor=pointer]:
+                  - /url: /jobs/cat13/
+              - listitem [ref=e2014]:
+                - link "דרושים עבודה מהבית" [ref=e2015] [cursor=pointer]:
+                  - /url: /jobs/cat19/
+              - listitem [ref=e2016]:
+                - link "דרושים עיצוב" [ref=e2017] [cursor=pointer]:
+                  - /url: /jobs/cat26/
+              - listitem [ref=e2018]:
+                - link "דרושים עורכי דין" [ref=e2019] [cursor=pointer]:
+                  - /url: /jobs/cat14/
+              - listitem [ref=e2020]:
+                - link "דרושים מדיה" [ref=e2021] [cursor=pointer]:
+                  - /url: /jobs/cat15/
+              - listitem [ref=e2022]:
+                - link "דרושים קמעונאות" [ref=e2023] [cursor=pointer]:
+                  - /url: /jobs/cat33/
+              - listitem [ref=e2024]:
+                - link "דרושים תחבורה" [ref=e2025] [cursor=pointer]:
+                  - /url: /jobs/cat29/
+              - listitem [ref=e2026]:
+                - link "דרושים רפואה" [ref=e2027] [cursor=pointer]:
+                  - /url: /jobs/cat16/
+              - listitem [ref=e2028]:
+                - link "דרושים שיווק" [ref=e2029] [cursor=pointer]:
+                  - /url: /jobs/cat27/
+              - listitem [ref=e2030]:
+                - link "דרושים שירות לקוחות" [ref=e2031] [cursor=pointer]:
+                  - /url: /jobs/cat11/
+              - listitem [ref=e2032]:
+                - link "דרושים אבטחה" [ref=e2033] [cursor=pointer]:
+                  - /url: /jobs/cat25/
+              - listitem [ref=e2034]:
+                - link "דרושים תיירות" [ref=e2035] [cursor=pointer]:
+                  - /url: /jobs/cat31/
+              - listitem [ref=e2036]:
+                - link "דרושים תעשייה" [ref=e2037] [cursor=pointer]:
+                  - /url: /jobs/cat18/
+              - listitem [ref=e2038]:
+                - link "הייטק כללי" [ref=e2039] [cursor=pointer]:
+                  - /url: /jobs/cat5/
+              - listitem [ref=e2040]:
+                - link "הייטק תוכנה" [ref=e2041] [cursor=pointer]:
+                  - /url: /jobs/cat6/
+          - generic [ref=e2042]:
+            - paragraph [ref=e2043]: דרושים לפי אזורים
+            - list [ref=e2044]:
+              - listitem [ref=e2045]:
+                - link "דרושים בישראל" [ref=e2046] [cursor=pointer]:
+                  - /url: /article/150/
+              - listitem [ref=e2047]:
+                - link "דרושים תל אביב" [ref=e2048] [cursor=pointer]:
+                  - /url: /jobs/area/1/
+              - listitem [ref=e2049]:
+                - link "דרושים חולון" [ref=e2050] [cursor=pointer]:
+                  - /url: /jobs/area/3/
+              - listitem [ref=e2051]:
+                - link "דרושים ראשון לציון" [ref=e2052] [cursor=pointer]:
+                  - /url: /jobs/area/4/
+              - listitem [ref=e2053]:
+                - link "דרושים פתח תקווה" [ref=e2054] [cursor=pointer]:
+                  - /url: /jobs/area/5/
+              - listitem [ref=e2055]:
+                - link "דרושים ראש העין" [ref=e2056] [cursor=pointer]:
+                  - /url: /jobs/area/9/
+              - listitem [ref=e2057]:
+                - link "דרושים נתניה" [ref=e2058] [cursor=pointer]:
+                  - /url: /jobs/area/10/
+              - listitem [ref=e2059]:
+                - link "דרושים כפר סבא" [ref=e2060] [cursor=pointer]:
+                  - /url: /jobs/area/11/
+              - listitem [ref=e2061]:
+                - link "דרושים הרצליה" [ref=e2062] [cursor=pointer]:
+                  - /url: /jobs/area/12/
+              - listitem [ref=e2063]:
+                - link "דרושים הוד השרון" [ref=e2064] [cursor=pointer]:
+                  - /url: /jobs/area/13/
+              - listitem [ref=e2065]:
+                - link "דרושים חדרה" [ref=e2066] [cursor=pointer]:
+                  - /url: /jobs/area/14/
+              - listitem [ref=e2067]:
+                - link "דרושים חיפה" [ref=e2068] [cursor=pointer]:
+                  - /url: /jobs/area/21/
+              - listitem [ref=e2069]:
+                - link "דרושים קריות" [ref=e2070] [cursor=pointer]:
+                  - /url: /jobs/area/22/
+              - listitem [ref=e2071]:
+                - link "דרושים נהריה" [ref=e2072] [cursor=pointer]:
+                  - /url: /jobs/area/23/
+              - listitem [ref=e2073]:
+                - link "דרושים טבריה" [ref=e2074] [cursor=pointer]:
+                  - /url: /jobs/area/25/
+              - listitem [ref=e2075]:
+                - link "דרושים עפולה" [ref=e2076] [cursor=pointer]:
+                  - /url: /jobs/area/26/
+          - generic [ref=e2077]:
+            - paragraph [ref=e2078]: דרושים לפי איזורים - המשך
+            - list [ref=e2079]:
+              - listitem [ref=e2080]:
+                - link "דרושים באר שבע" [ref=e2081] [cursor=pointer]:
+                  - /url: /jobs/area/30/
+              - listitem [ref=e2082]:
+                - link "דרושים אשקלון" [ref=e2083] [cursor=pointer]:
+                  - /url: /jobs/area/31/
+              - listitem [ref=e2084]:
+                - link "דרושים אילת" [ref=e2085] [cursor=pointer]:
+                  - /url: /jobs/area/34/
+              - listitem [ref=e2086]:
+                - link "דרושים ירושלים" [ref=e2087] [cursor=pointer]:
+                  - /url: /jobs/area/18/
+              - listitem [ref=e2088]:
+                - link "דרושים בית שמש" [ref=e2089] [cursor=pointer]:
+                  - /url: /jobs/area/19/
+              - listitem [ref=e2090]:
+                - link "דרושים מעלה אדומים" [ref=e2091] [cursor=pointer]:
+                  - /url: /jobs/area/20/
+              - listitem [ref=e2092]:
+                - link "דרושים אשדוד" [ref=e2093] [cursor=pointer]:
+                  - /url: /jobs/area/15/
+              - listitem [ref=e2094]:
+                - link "דרושים רחובות" [ref=e2095] [cursor=pointer]:
+                  - /url: /jobs/area/16/
+              - listitem [ref=e2096]:
+                - link "דרושים מרכז" [ref=e2097] [cursor=pointer]:
+                  - /url: /jobs/area/1-2-3-4-5-6-7-8-9/
+              - listitem [ref=e2098]:
+                - link "דרושים ירושלים" [ref=e2099] [cursor=pointer]:
+                  - /url: /jobs/area/18-19-20/
+              - listitem [ref=e2100]:
+                - link "דרושים יהודה ושומרון" [ref=e2101] [cursor=pointer]:
+                  - /url: /jobs/area/36-37-38-39-40-41/
+              - listitem [ref=e2102]:
+                - link "דרושים צפון" [ref=e2103] [cursor=pointer]:
+                  - /url: /jobs/area/21-22-23-24-25-26-27-28-29/
+              - listitem [ref=e2104]:
+                - link "דרושים דרום" [ref=e2105] [cursor=pointer]:
+                  - /url: /jobs/area/30-31-32-33-34/
+              - listitem [ref=e2106]:
+                - link "עבודות בחול" [ref=e2107] [cursor=pointer]:
+                  - /url: /jobs/subcat/89/
+                  - text: עבודות בחו"ל
+          - generic [ref=e2108]:
+            - paragraph [ref=e2109]: חיפושים פופלריים
+            - list [ref=e2110]:
+              - listitem [ref=e2111]:
+                - link "עבודה מהבית" [ref=e2112] [cursor=pointer]:
+                  - /url: /jobs/cat19/
+              - listitem [ref=e2113]:
+                - link "יד 2" [ref=e2114] [cursor=pointer]:
+                  - /url: /דרושים-1477861-קורל-תל/
+              - listitem [ref=e2115]:
+                - link "בנק הפועלים" [ref=e2116] [cursor=pointer]:
+                  - /url: /דרושים-23179-בנק-הפועלים/
+              - listitem [ref=e2117]:
+                - link "אבטחה" [ref=e2118] [cursor=pointer]:
+                  - /url: /jobs/cat25/
+              - listitem [ref=e2119]:
+                - link "קוקה קולה" [ref=e2120] [cursor=pointer]:
+                  - /url: /דרושים-5709-החברה-המרכזית-למכירות/
+              - listitem [ref=e2121]:
+                - link "התעשייה האווירית" [ref=e2122] [cursor=pointer]:
+                  - /url: /דרושים-183961-תעשייה-אווירית/
+              - listitem [ref=e2123]:
+                - link "נהג עד 12 טון" [ref=e2124] [cursor=pointer]:
+                  - /url: /jobs/subcat/461/
+              - listitem [ref=e2125]:
+                - link "נהג מעל 15 טון" [ref=e2126] [cursor=pointer]:
+                  - /url: /jobs/subcat/557/
+              - listitem [ref=e2127]:
+                - link "סטודנטים" [ref=e2128] [cursor=pointer]:
+                  - /url: /jobs/subcat/88/
+              - listitem [ref=e2129]:
+                - link "דרושים נהגים" [ref=e2130] [cursor=pointer]:
+                  - /url: /jobs/subcat/426/
+              - listitem [ref=e2131]:
+                - link "קורות חיים" [ref=e2132] [cursor=pointer]:
+                  - /url: /קורות-חיים/
+              - listitem [ref=e2133]:
+                - link "טבלאות שכר" [ref=e2134] [cursor=pointer]:
+                  - /url: /article/87/
+              - listitem [ref=e2135]:
+                - link "מחשבון שכר" [ref=e2136] [cursor=pointer]:
+                  - /url: /calculator/
+          - generic [ref=e2137]:
+            - paragraph [ref=e2138]: דרושים IL
+            - list [ref=e2139]:
+              - listitem [ref=e2140]:
+                - link "תקנון האתר" [ref=e2141] [cursor=pointer]:
+                  - /url: /article/2/
+              - listitem [ref=e2142]:
+                - link "מדיניות הפרטיות" [ref=e2143] [cursor=pointer]:
+                  - /url: /article/103/
+              - listitem [ref=e2144]:
+                - link "הסכם מעסיקים" [ref=e2145] [cursor=pointer]:
+                  - /url: /article/151/
+              - listitem [ref=e2146]:
+                - link "הצהרת נגישות" [ref=e2147] [cursor=pointer]:
+                  - /url: /article/237/
+              - listitem [ref=e2148]:
+                - link "כל החברות" [ref=e2149] [cursor=pointer]:
+                  - /url: /companies.aspx/
+              - listitem [ref=e2150]:
+                - link "חברות בישראל" [ref=e2151] [cursor=pointer]:
+                  - /url: /article/247/
+              - listitem [ref=e2152]:
+                - link "צור קשר" [ref=e2153] [cursor=pointer]:
+                  - /url: /contactus.aspx/
+              - listitem [ref=e2154]:
+                - link "עזרה" [ref=e2155] [cursor=pointer]:
+                  - /url: /help.aspx/
+              - listitem [ref=e2156]:
+                - link "בואו לעבוד אצלנו" [ref=e2157] [cursor=pointer]:
+                  - /url: /דרושים-1055-פורטל-דרושים/
+              - listitem [ref=e2158]:
+                - link "אודות" [ref=e2159] [cursor=pointer]:
+                  - /url: /article/328/
+          - generic [ref=e2160]:
+            - paragraph [ref=e2161]: כתבות ומדריכים
+            - list [ref=e2162]:
+              - listitem [ref=e2163]:
+                - link "טבלאות שכר" [ref=e2164] [cursor=pointer]:
+                  - /url: /article/87/
+              - listitem [ref=e2165]:
+                - link "עבודה לנוער" [ref=e2166] [cursor=pointer]:
+                  - /url: /article/191/
+              - listitem [ref=e2167]:
+                - link "חיפוש עבודה" [ref=e2168] [cursor=pointer]:
+                  - /url: /article/12/
+              - listitem [ref=e2169]:
+                - link "אבטלה" [ref=e2170] [cursor=pointer]:
+                  - /url: /article/171/
+              - listitem [ref=e2171]:
+                - link "איך לכתוב קורות חיים" [ref=e2172] [cursor=pointer]:
+                  - /url: /article/13/
+              - listitem [ref=e2173]:
+                - link "איך להתכונן לראיון עבודה" [ref=e2174] [cursor=pointer]:
+                  - /url: /article/44/
+              - listitem [ref=e2175]:
+                - link "מכתב התפטרות לדוגמא" [ref=e2176] [cursor=pointer]:
+                  - /url: /article/185/
+              - listitem [ref=e2177]:
+                - link "קורות חיים באנגלית" [ref=e2178] [cursor=pointer]:
+                  - /url: /article/157/
+              - listitem [ref=e2179]:
+                - link "מכתב התפטרות" [ref=e2180] [cursor=pointer]:
+                  - /url: /article/138/
+          - generic [ref=e2182]:
+            - generic [ref=e2183]:
+              - link "instagram מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e2184] [cursor=pointer]:
+                - /url: https://instagram.com/drushim__il?igshid=NTc4MTIwNjQ2YQ==
+                - img "instagram" [ref=e2185]
+              - link "linkedin מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e2186] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/portal-drushim-israel/mycompany/?viewAsMember=true
+                - img "linkedin" [ref=e2187]
+              - link "facebook מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e2188] [cursor=pointer]:
+                - /url: https://www.facebook.com/drushim.co.il?mibextid=ZbWKwL
+                - img "facebook" [ref=e2189]
+              - link "youtube מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e2190] [cursor=pointer]:
+                - /url: https://www.youtube.com/@drushim
+                - img "youtube" [ref=e2191]
+            - generic [ref=e2192]:
+              - link "appstore מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e2193] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D-il/id1180529703
+                - img "appstore" [ref=e2194]
+              - link "googleplay מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e2195] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=drushim.app
+                - img "googleplay" [ref=e2196]
+      - paragraph [ref=e2199]:
+        - text: דרושים IL - מגשימים 1, פתח תקווה. ליצירת קשר
+        - link "לחץ כאן" [ref=e2200] [cursor=pointer]:
+          - /url: /contactus.aspx
+    - region "Cookie consent banner" [ref=e2201]:
+      - button "סגור הודעת עוגיות" [ref=e2202] [cursor=pointer]:
+        - img [ref=e2203]
+      - generic [ref=e2205]:
+        - heading "🍪 אוהבים עוגיות? גם אנחנו" [level=5] [ref=e2206]
+        - paragraph [ref=e2207]:
+          - text: אנחנו משתמשים בעוגיות (cookies) לשיפור חוויית הגלישה שלך, הצגת הצעות מותאמות ועוד. כמפורט
+          - link "במדיניות הפרטיות נפתח בכרטיסיה חדשה" [ref=e2208] [cursor=pointer]:
+            - /url: https://www.drushim.co.il/article/103/
+            - text: במדיניות הפרטיות
+          - text: שלנו.
+        - button "הבנתי" [ref=e2210] [cursor=pointer]
+  - status
+  - img
+  - img

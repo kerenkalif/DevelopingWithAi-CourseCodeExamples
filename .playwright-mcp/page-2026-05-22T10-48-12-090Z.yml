@@ -1,0 +1,498 @@
+- generic [active] [ref=e1]:
+  - complementary "כלי נגישות":
+    - generic:
+      - generic:
+        - region "Skip Links":
+          - link "עבור לסרגל הכלים של הנגישות" [ref=e2] [cursor=pointer]:
+            - /url: "#"
+    - button "פתח כלי נגישות" [ref=e3] [cursor=pointer]:
+      - img "פתח כלי נגישות" [ref=e5]
+  - generic [ref=e9]:
+    - generic [ref=e11]:
+      - button [ref=e13] [cursor=pointer]
+      - banner [ref=e16]:
+        - generic [ref=e17]:
+          - link "דרושים IL" [ref=e19] [cursor=pointer]:
+            - /url: /
+            - img "דרושים IL" [ref=e20]
+          - generic [ref=e22]:
+            - link "הסוכנת החכמה" [ref=e24] [cursor=pointer]:
+              - /url: /smartalerts.aspx
+            - button [ref=e27] [cursor=pointer]
+            - link "גיוס עובדים" [ref=e30] [cursor=pointer]:
+              - /url: https://www.drushim.co.il/employers
+    - generic [ref=e31]:
+      - link "מחפשים עובדים? יש לנו הצעות מיוחדות >> מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e33] [cursor=pointer]:
+        - /url: https://lp.drushim.co.il/drushim_b2b?ref=286
+        - text: מחפשים עובדים? יש לנו הצעות מיוחדות >>
+      - generic [ref=e38]:
+        - heading "החברות המובילות בישראל מחפשות אותך! אלפי משרות מחכות רק לך" [level=1] [ref=e40]:
+          - generic [ref=e41]: החברות המובילות בישראל מחפשות אותך!
+          - generic [ref=e42]: אלפי משרות מחכות רק לך
+        - generic [ref=e48]:
+          - combobox [ref=e52]:
+            - img [ref=e54]
+            - textbox "חפש/י את העבודה הבאה שלך" [ref=e56]
+          - generic [ref=e62]:
+            - combobox [ref=e65]:
+              - img [ref=e67]
+              - textbox "איפה העבודה הבאה שלך?" [ref=e69]
+            - text: 󰍝
+          - button "חיפוש" [disabled] [ref=e71] [cursor=pointer]:
+            - generic [ref=e72]: חיפוש
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - paragraph [ref=e76]: "חיפושים פופולריים:"
+            - generic [ref=e77]:
+              - link "חיילים משוחררים" [ref=e78] [cursor=pointer]:
+                - /url: /jobs/search/חיילים משוחררים/?ssaen=1
+              - link "עבודה מהבית" [ref=e79] [cursor=pointer]:
+                - /url: /jobs/search/עבודה מהבית/?ssaen=1
+              - link "משרה זמנית" [ref=e80] [cursor=pointer]:
+                - /url: /jobs/search/משרה%20זמנית/?ssaen=1
+          - generic [ref=e81]:
+            - paragraph [ref=e82] [cursor=pointer]: בחירה מרשימת הקטגוריות המלאה >
+            - text: 
+      - generic [ref=e84]:
+        - iframe [ref=e88]:
+          - link [ref=f6e2] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsuPMZwC2wg5LffCc2KEJ-jjh-899fqRd1QribYVTM4_pdc3yVVb291LJ8EBvTDHaOHMrdHJpF0uyr9qUMllu-hmGk4NON7w06nxCI5ReUMM9Q2GuwBivluVRiq0CQ8f88NT-3iMNVq6MWkp6kGU2tx_QehirgbW6auR448HAq36WnVr1IfA3InOVjznF1GKwCN31rXG01a-jW3y5GEgtVtpgnNWNyRrhDPhLlgjtf36_pnj0r-wERJWJnpmux6f1P46YlhazZdt7c35BhPDqaM3revZ9LBkuZahcFeLIvSLLGu1a2GoAuTCnneQIP6Mamfny6S-sWoLhtvupp5un8IckWfDIOdyikl4jFCs6DO3WpQ7HOqnNBIb3aDudTxqIplKL2uVCTsV&sai=AMfl-YScFanw48Ww83E8WEoGLVpYYDVuI4rCtTxWw1Zb6gDGm6knyIP1RUghFqrd59cgIjuRbAAGNLWZZVweTIqbOLlcwKPTJzHaPDzcXezV2YftztQCXHEfa_jw7VGu749ClzMK__IaeM_WzrvxRX9yulC2EPcMYmuQkdawcYYgUJCy8zQFkzqsnoOH3tUKud1I9K6X0EvVHHtmWdDA92HY4tXFWynphlq7akMiR1rN-bkFsYr6__ucPsEJBAsBYH2DWlc3boFFDKVl_IzpJTOcZHOL1HzWgIUyTK1LMnfvio041FTeIuMGZGAO-m_YSDPEFJJTGLgVwGXNPYQ_ZgUqii-j_gXG8o4YoWP1IMgWFLhzw0oqGlp3F4uW07kBSpAyw_xzv7gNcuchtUsE&sig=Cg0ArKJSzDlwTT20NiTN&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://tinyurl.com/2hy7cp3v
+        - iframe [ref=e92]:
+          - link [ref=f11e2] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjssoMsuEIpwEYuGX3q1gJ2yMn_Q8z4pr4Gqs7DRQbl1qs9ZIBRRhaynZxSPbtPAgC-sGz3H9B_HGl5RvGHETqCXWslAxns2YN9x-cW9ugy4WVJNFf8_uK7MUOPSAPbrNx3MObt9Hc6vGQ802IgmZGY7CjqDVVSCyJascJyW7gfmLGn9ChJ21m04jWATyAXGcY6x7ebtr0WZgJT1bcq-G0Mwm3LVfBfOH22FW6fdHGGy3nf7Zl1Hz_5WjqCOxEweBfT8vKfuAASIb3fsNEYUehU71WGPvN10HgA09UkJcBIUVmiEaPH2lZe-YVb_Jl-P38K7aajcjAglZuW-21DR85AUF4wcj5sQ1QsCXfxvooy9NPvwbbQR0s_HIm2RFUpFsVfzsKxIXTm5q&sai=AMfl-YQoqhhtxjF9pCKgIQFmwYCfTRmUJTIl65NNswl1ncRIZSrqFtzJpiQsbT177VxkxLJjbHdcEkSFnIzO61keleEpH9YQs1le4x0Dx5lXpGi0Nip-LfcVISA5PQVK4m1HxBeIV8pMBmDgcs3UGEw08gIlvEybIgYpAsUZgnQM9I7NzUn_dZLeIag1oPjdAV1QPWg_JnNy_-On9KszmqdN1T_BQwBHPtMYFNqcBuMsbvBFY7SJAbqcxT2WzxOr_zGIJazO5Dr8PSnqeRz05GtMs9g9r95y3PChShAtudYLMTNPB2nwtqu9E5YUb4fNKKMUe4MAKnGgwVg3C1Z_74lrQMHOEyTjJk660azA-i37Dz_JxtNuY5-7ClPIvwGIpwCJKQGYcJwtIVOukbdiDw&sig=Cg0ArKJSzOqNNs1kanKH&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/9GLVf
+        - iframe [ref=e96]:
+          - link [ref=f8e2] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsukioAkS5GutfFBmTFa8mB6djKrj8og6-HTXAGptg2HOlN5Fk0Ih50EKsufSiFtEy3kLDMU40C_X0OU2em48mHSSh7wQse6HEVmBOs9QLKG_CfvV4KkwGAIv0DTughLzP86VVFvguFSeZeGnfb3mB0rfIQZhOy3jrqlCE6jeOG-UrbJMjXOZMwyTUibu4RPEpsW4wDXTyPPMzVhKygJ13iVXOSpgC7avTxzJmuj8LpZf64VXUoU_0F_NQCku7X7enjE27ukP5ZW9hddHvRtCHBSnB7BUap_v7XmkAnTMn8a8ESNUCaMpKQmHvuQ8MB-c1goxAIQ3K8JQguGEwOfjjKKRV8fiy3lA2uCFqZuO1EnpgkUhmB_zBUkxHmyoJBIbYB1qvdcHK4q&sai=AMfl-YTXCIE2seCy-GubTmJIcIqUTrtrOqIgVStvZBLqWpFjAm0c2uzSdyNt7VNxEHV33oxckTRMMmkuHr8hQ-wkKLFRBr3NE7sWPdpJjjQ_O9gFUf04f8CWa1ckrP8wTTeblcm0coKwD3-N_bQrUsDHgWnWbQ1MpJNUEXUMLDhR8WPAbHiIZahVF_F76LAkFuhnOW_pslSvUOtMu4Wb4fVex3QrtIunE6c6SsCyvevzpv0e2svXsPYClrl6X8D2mJ3Ua9QLdWqDyRgEgolYRnzTorX0BAqhjJ7zLrM3juvvcjKe3q7lOTxl4CWlV8USHQAAAjyZdv1dLyVu4sbCvFZK8ysTKdeccEwQKoV0UJ99n8Lxsw1lnypzPWjIDj91Gef0bsFPa4-rtFFI46Wa&sig=Cg0ArKJSzE7gRx6nRmry&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/hn07o
+        - iframe [ref=e100]:
+          - link [ref=f7e2] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsuib9iBgWnZwptnlJCJWcJtmcEDMaD4X032kB8KZhPeh8kF_J6utpQ2cY3CtYapgNEbjOq7TDw9rqDR8fgNnBiIFhlSHWi09x6uJ3kn2ze35mKBzi7eigxHNRS489BP7ljCU-7fHeOa8s2E7Ji9nqsnUAjeKtC2abnizLDCJORXs2PJD5O1pDr6G8bNG8xIcHufSqwT9V_KAFTHOEKF5ZOfWbXwRnn8GEhzDTO2lfLF14jm634yPJFrSCArva-5ZUIf2lCvcLrpVpK_c87_GkHlataYCLNVZ6PWMAs0F5vFEXTGMwdwtqBoHxMebkLmSKf_wd8MwjVpt7Q7K50sqvgccR572t0J6BqA3PE_KTxKWyefUnyO2Inx_xqvYZyHSVf6gNmB39Av&sai=AMfl-YTJC8eKarNkSsXQjEJN19haUzqqR-f7YqD4R1M2wAvdKN46uzxAN9KoDziy1YwR_TbJY_w9szO8dihEHBB77NePhbYRGA3yO0Ai7wUFCYWYriTMWcXVFctjZ7ie7akVc_Hzib1pmD1QIcUECcFiJSjOQhQIOX55JFMHv_XhQSRy8KSJITs_ej89JZjhYXgmCC_-K-1JUWAjFayDCvkJB7G5iAhjKxF7PdvnkpKOHDuSZhTHAVsRomATkfMDSRA3lYxz0ygp1xigJGBdfzSAG7KBipeHDe-KHNlPRShGaUh7vyIUPrUmi2JDInAJXIbMSOmZQRrTKN8LqRlELOUzZFNyYb4ytUGMFrTKBeSFD3Y69GQCbrIyT04-VFgPfXxcpZ-8yGeLwe350u0v7g&sig=Cg0ArKJSzLAeLjzYYTIA&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/q188D
+        - iframe [ref=e104]:
+          - link [ref=f4e2] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjstJzB7J6r6YxQ9lP9wT6zhucjIVoBkqU8v7u--ZtBtGfIoR0JN-4o9xRr7OLg3kaV_kgHzNuPr_hme_TXZsYlDDlgpsqQQvDdMql5RvAgSP311r1BuG-PjKw2Re855VP2qTjfv5EX041ZeDOGmR0cDaXd21NWUfAGMe5J2Jz2Y2eb4s2qEn2EXkY263IRB1L4-GbdnAZQgcBWm51HB-v-dQypm7XFVfdcOLWSxqY1oEsJ9qy_j_5a_Vsdb1THYAAf0kvTniT_4NSK-H00nJJ3pzH9rq3tzT2OdieQvOWNVhfpsyOy43fzMgcazBs-bjl6njrHLHhcKIqA0qwhHCV81eahlsW0p5TS-DBa3OdahsZWqfgDU0Ktcm_8cCFQimcopZWHQmf25Y&sai=AMfl-YRCRWzdgG5EAo6aQrUNP7YdBHlF0FvAAVeS5I5qqMoB9wgoTaFYxypHg_h9n4wWLXk_MyopgHjSln_TCnqt6cJouAGHHnHiCGn4KybzI9f6OBzbN1ReAeEnfWd7fbhtGLLrXWf-XOfhb1wbuQHYSeKhJ1No3iX8SW0IxSenWsZGI6AyRLezT7K3NFEOa_ONAHKN_G2-OOlaOEEJfGfEl0OyX3YFGFGaRTN-pOIEIEwHBw9oB20qxX1omuIKmiOYDDwSihH5D128W2PLUWy5yBX6Ks8T2TafaoD5BLKeGU4TuYBJxZDIwPzJetmqPFSnv2-lqlf1fOxnY88xscxlAunhAbE-SLpWdok731tbMvFKZHGeAAFW-6rx5GdBBL1EIdhMIVRXA_zRW3LIIg&sig=Cg0ArKJSzHn8gnRAMoFg&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/fbzFR
+        - iframe [ref=e108]:
+          - link [ref=f10e2] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjssDl6EzlZ0wWoAmLMCOw0lTuK8P2dG9dOgzgbTggMM-vSNqomWF3uYqJSRfXN3hC9bgPWN4ao5du1U5EACFICCthmoM08uSXJgjQLVjZCD4_Q-mADEhbWuzQD5AO9sL96qIFb0bhXLO1j6UWDtMJDSCoyECwF2Ip4gfszkSCbE-HxEFg07tQIArSl5FQyxI57KLEL6RmA9DF_pxbDbnKsB_QkW-B2v7BqQnQgX9tu6RrYiTYRBNk2hhuVFby6E5Kmh_pctAD-1QOIvQAxGt8sPt6IsyEVTf3eXiowPc0xZYZk_cXKWlfp0eg1Ume3VxlV1-oGKM13lETgHeKdm8g4N2MCY-XjysqbWVIsJdxLIhgc0pmMEZA2UZPTox_Y5Ahrp1o3sUSKG1&sai=AMfl-YQQHxtDsi_y9WP7gH2FkmUV1BLeWzmSNRnpYDl3ENkgw8KnAUiAANj-H3vbKMOJuPnMsM1IhZYaO1NufnjqyV5qzR1uH4V9etRlycIEPv0r-Ylbx2DWUZXxBj0J5aE1EDwx3mJEhdvmrEBn4BagLdVCZovUQ499Tvpf5FKrpafFX1uyhAn1g665aqHGGOl1Th1_LdstG6VM_YDSHJhKuBzTCGw_u9y878k3gaBw2cc7utqKZVH_JtjAZ_ETWfE8gxpqBFriP-M3uCF_V5gtcG08D_g3t6OREcR4BHfRr1PDMgMxkdvYQNlgf99HhtoOUHieJki9-nGikNp6ZDHr6vpQ5ZYGb6D14cs4Ojd1-I01LhSm-1HwIwTkjLGJdiKB2TcXmtpR-A3qSFTnOg&sig=Cg0ArKJSzGMT67pOGUt8&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/1OX1b
+        - iframe [ref=e112]:
+          - link [ref=f9e2] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjstZ3NVV_jvktZCXBh_k227nHfAR3p1Er05NMC37K0vLEF23NCy-KFjvvBV6xF7_YKU9oBvEajblbPOsJuC04-ruiNZBtztGhw6wGu2mHGRsZn6kG65ONGu7V7IFyx1Dh6iQ2ANsNwp7N0Q9oEF_qUL5J6_TIidzDL6WN66Xzzcr3HYeuTIuRJBkRohm0CV5vvR5ihVXN8eExhyABvwBhCxX-mRVsMdLnyr9J4C8sfqu_nEkKDNHHHymbq_UnoLhxJtYpa2qOEggW5vi81woP3dazB5lSIjIw_6XPBr2Iuj0eQ_3HrdzBNStqI3vlrr7CBtvhqKfVLOOJoSR1JPcYspy29ooCu9g50e2HZk-ArXfi9Mg7dbP8HsszeNh6LMVwDISwY09PSra_w&sai=AMfl-YTyMz52PQh290PosC5HCuXz7U-Y2aKfaHUXEguH7EMnuqL6xk3FcYJEgWuwWSB_t_e8V_144cz9GQAktJPjwU6mTJJH4NFPMBZueAsRiWGw4brNsMUgS6rYBKW8LMPst84GAwIBXTCrJSCfAXd45a4JY-Q9UbWZkxg9nO3lVb5qoSkg7pnHJR6cGwme3u8Pk_Td2DvwZ76stvy65KM5KjwK7ZG8arYn1uFZxEYRH2tOtHDgQhC8cIfMDHycF7VAPRpBlo3E9A3HtWlBG_7eg5bPiUYk0w6jXGFNd2pz-Xs5x8bhNtxd-GMqXcMnh0XrhezSYZdgQoCPJ8iyhPPzha63NEijyLnOQjmkssjOtstqxUGOvwbJwl5EJbw-AW--Z4d6xMVBMylllvsm&sig=Cg0ArKJSzLtRZ67nspZA&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://www.career.yad2.co.il/
+        - iframe [ref=e116]:
+          - link [ref=f12e2] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjssRdhx-IPNO8GVMgAbRzv9f97R8rGmqIuX44NhZ3K6Ixz5bFbFtl4zebP20jdEY1imaicUXbcRM-zXiDC4KFUVnohLK7vUrwe2dStltgeqlH0-BQT0w4CwYhhonmxUSa3-XoaZj-nzWF9PJAl6o18FeYjvtsFAyMBN2xLShaGU9C4QZC8XFmrWeQEFHsbt7HkAD3iJNhyOl1Zv-4mvxgSDerOGfdTibXN9JO9NCZt36tSH99PtDrjlxShIOa1uELCKZrUfJ4eDxuBUZeKjL7sznggOxqU0FpIG9OCXfCAvzACJvIFb5XY7PtmAq_BanQLoYEOVt9UEUm0S3LiUUVNTQGWdVG3hQldj3TU4432BdkNIS3LVRDHIruPiIia7XqZR6e9WTOjbNKQ&sai=AMfl-YQcA2-IAoDdy6CZJQmiXWFCD9gZij1esx075gTnWQx5Rw46k7CNufFQjZbDgrub8eW3etNT150PCuimnicXIm8XJUo5sEY5Y_IOs-3l6T-98pCM3PY8GDlHq3-cHwPJC7thRNG5d9Kn-pvHjQk9x-mRZOqiKnbbGmH9oYKwnax8V0Jz9NXfyei_E4kWeXtV9Ns4JHVd_WfuSOSe4VZ_S6YPI9ocrkKtnxI019glOwLNtTkqVROhW6n1ljYIZO9B7D9niQDg3KvolPy6zoklgtoVJ1nIZ8rosb_LBdZlpJ-IM3KXnmvkrtkOPGOlmNj-jQbrtz36fPMk-hQM6XwGCfplGlC5TxOFSWaR9PUKFFvtmLSzDk7S9SxBqn1pOAEIJfspQO9SguN6tE5e&sig=Cg0ArKJSzMINv98x_Gsc&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://shorturl.at/GNNry
+      - link "כמה אתם אמורים להרוויח > טבלאות שכר מעודכנות לשנת 2026" [ref=e117] [cursor=pointer]:
+        - /url: /article/87/
+        - generic [ref=e119]:
+          - img [ref=e121]
+          - generic [ref=e122]:
+            - generic [ref=e123]: כמה אתם אמורים להרוויח >
+            - generic [ref=e124]: טבלאות שכר מעודכנות לשנת 2026
+      - generic [ref=e125]:
+        - heading "מנטורים IL" [level=2] [ref=e128]
+        - generic [ref=e129]:
+          - text: ריכזנו עבורכם מגוון סרטוני הדרכה של המומחים שלנו בנושאים
+          - text: הכי חמים של עולם העבודה
+        - generic [ref=e130]:
+          - generic [ref=e131] [cursor=pointer]:
+            - generic [ref=e132]: 󰐍
+            - generic [ref=e133]: איך מגייסים מסתכלים על קורות החיים שלכם?
+          - generic [ref=e137] [cursor=pointer]:
+            - generic [ref=e138]: 󰐍
+            - generic [ref=e139]: איך מתחילים לחפש עבודה?
+          - generic [ref=e143] [cursor=pointer]:
+            - generic [ref=e144]: 󰐍
+            - generic [ref=e145]: איך למצוא עבודה בהייטק ללא ניסיון?
+        - link "לכל סרטוני ההדרכה" [ref=e151] [cursor=pointer]:
+          - /url: /articles/cat10/
+          - button "לכל סרטוני ההדרכה" [ref=e152]:
+            - generic [ref=e153]: לכל סרטוני ההדרכה
+      - generic [ref=e155]:
+        - heading "טיפים לקריירה ומציאת עבודה" [level=2] [ref=e157]
+        - generic [ref=e159]:
+          - link "הכנה לראיון עבודה – טיפים להצלחה!" [ref=e161] [cursor=pointer]:
+            - /url: https://www.drushim.co.il/article/44
+            - generic [ref=e167]: הכנה לראיון עבודה – טיפים להצלחה!
+          - 'link "מדריך חיפוש עובדים: כל הדרכים למציאת עובדים" [ref=e169] [cursor=pointer]':
+            - /url: https://www.drushim.co.il/article/93/
+            - generic [ref=e175]: "מדריך חיפוש עובדים: כל הדרכים למציאת עובדים"
+          - 'link "מדריך חיפוש עבודה: 10 צעדים פשוטים למציאת עבודה!" [ref=e177] [cursor=pointer]':
+            - /url: https://www.drushim.co.il/article/12
+            - generic [ref=e183]: "מדריך חיפוש עבודה: 10 צעדים פשוטים למציאת עבודה!"
+          - link "חיפוש עבודה בהייטק – המדריך להייטקיסט" [ref=e185] [cursor=pointer]:
+            - /url: https://www.drushim.co.il/article/128
+            - generic [ref=e191]: חיפוש עבודה בהייטק – המדריך להייטקיסט
+        - link "לכל הטיפים" [ref=e194] [cursor=pointer]:
+          - /url: /articles/
+          - generic [ref=e195]: לכל הטיפים
+      - generic [ref=e196]:
+        - generic [ref=e198]:
+          - paragraph [ref=e201]:
+            - text: אז למה אנחנו אתר
+            - text: הדרושים של ישראל?
+          - generic [ref=e202]:
+            - list [ref=e206]:
+              - listitem [ref=e207]: כפי שאתם יכולים לראות באתר, מעסיקים רבים מצהירים כי דרושים IL מהווה עבורם מקור הגיוס המוביל באינטרנט.
+              - listitem [ref=e208]: צוות האתר, המונה עשרות עובדים, מסייע באופן צמוד לאלפי מעסיקים בפרסום אלפי משרות כל חודש.
+              - listitem [ref=e209]: כשאתם שולחים קורות חיים למשרה המפורסמת באתר, אתם יכולים להיות בטוחים שמדובר במודעת דרושים רלוונטית ואמיתית אשר פורסמה ע"י המעסיק באופן ישיר.
+            - list [ref=e213]:
+              - listitem [ref=e214]: אנו לא מעתיקים משרות ממקורות אחרים! לכן אנו יכולים להבטיח כי פרטי יצירת הקשר של הגורם המגייס באותו ארגון הינם תקינים ועדכניים.
+              - listitem [ref=e215]: כל משרה באתר יורדת באופן אוטומטי, לאחר 30 יום. כך אנו מבטיחים את הרלוונטיות של כל המשרות המפורסמות באתר.
+              - listitem [ref=e216]:
+                - generic [ref=e217]:
+                  - text: "כל השירותים הניתנים באתר למחפשי עבודה הינם לגמרי בחינם:"
+                  - link "סוכן חכם" [ref=e218] [cursor=pointer]:
+                    - /url: /smartalerts.aspx
+                  - text: "|"
+                  - link "איזור אישי" [ref=e219] [cursor=pointer]:
+                    - /url: /personal/cvfiles.aspx
+                  - text: "|"
+                  - link "מערכת ליצירת קורות חיים" [ref=e220] [cursor=pointer]:
+                    - /url: https://www.drushim.co.il/%D7%A7%D7%95%D7%A8%D7%95%D7%AA-%D7%97%D7%99%D7%99%D7%9D/
+        - generic [ref=e221]:
+          - paragraph [ref=e223]: מה עוד עושה אותנו לאתר הדרושים של ישראל?
+          - link "אני רוצה לדעת!" [ref=e226] [cursor=pointer]:
+            - /url: /article/131/
+            - generic [ref=e227]: אני רוצה לדעת!
+    - generic [ref=e228]:
+      - generic [ref=e229]:
+        - paragraph [ref=e231]: דרושים IL אתר הדרושים של ישראל
+        - generic [ref=e232]:
+          - generic [ref=e233]:
+            - paragraph [ref=e234]: דרושים לפי קטגוריות
+            - list [ref=e235]:
+              - listitem [ref=e236]:
+                - link "דרושים כל הקטגוריות" [ref=e237] [cursor=pointer]:
+                  - /url: /categories.aspx/
+              - listitem [ref=e238]:
+                - link "דרושים אבטחת מידע" [ref=e239] [cursor=pointer]:
+                  - /url: /jobs/cat30/
+              - listitem [ref=e240]:
+                - link "דרושים אדמיניסטרציה" [ref=e241] [cursor=pointer]:
+                  - /url: /jobs/cat1/
+              - listitem [ref=e242]:
+                - link "דרושים אופנה" [ref=e243] [cursor=pointer]:
+                  - /url: /jobs/cat32/
+              - listitem [ref=e244]:
+                - link "דרושים אינטרנט" [ref=e245] [cursor=pointer]:
+                  - /url: /jobs/cat28/
+              - listitem [ref=e246]:
+                - link "דרושים ביטוח" [ref=e247] [cursor=pointer]:
+                  - /url: /jobs/cat23/
+              - listitem [ref=e248]:
+                - link "דרושים בכירים" [ref=e249] [cursor=pointer]:
+                  - /url: /jobs/cat2/
+              - listitem [ref=e250]:
+                - link "דרושים בעלי מקצוע" [ref=e251] [cursor=pointer]:
+                  - /url: /jobs/cat3/
+              - listitem [ref=e252]:
+                - link "דרושים הוראה" [ref=e253] [cursor=pointer]:
+                  - /url: /jobs/cat7/
+              - listitem [ref=e254]:
+                - link "דרושים הנדסה" [ref=e255] [cursor=pointer]:
+                  - /url: /jobs/cat10/
+              - listitem [ref=e256]:
+                - link "דרושים כללי" [ref=e257] [cursor=pointer]:
+                  - /url: /jobs/cat8/
+              - listitem [ref=e258]:
+                - link "דרושים כספים" [ref=e259] [cursor=pointer]:
+                  - /url: /jobs/cat9/
+              - listitem [ref=e260]:
+                - link "דרושים לוגיסטיקה" [ref=e261] [cursor=pointer]:
+                  - /url: /jobs/cat21/
+              - listitem [ref=e262]:
+                - link "דרושים ביוטק" [ref=e263] [cursor=pointer]:
+                  - /url: /jobs/cat20/
+              - listitem [ref=e264]:
+                - link "דרושים מכירות" [ref=e265] [cursor=pointer]:
+                  - /url: /jobs/cat17/
+              - listitem [ref=e266]:
+                - link "הייטק חומרה" [ref=e267] [cursor=pointer]:
+                  - /url: /jobs/cat4/
+          - generic [ref=e268]:
+            - paragraph [ref=e269]: דרושים לפי קטגוריות - המשך
+            - list [ref=e270]:
+              - listitem [ref=e271]:
+                - link "דרושים מלונאות" [ref=e272] [cursor=pointer]:
+                  - /url: /jobs/cat12/
+              - listitem [ref=e273]:
+                - link "דרושים משאבי אנוש" [ref=e274] [cursor=pointer]:
+                  - /url: /jobs/cat13/
+              - listitem [ref=e275]:
+                - link "דרושים עבודה מהבית" [ref=e276] [cursor=pointer]:
+                  - /url: /jobs/cat19/
+              - listitem [ref=e277]:
+                - link "דרושים עיצוב" [ref=e278] [cursor=pointer]:
+                  - /url: /jobs/cat26/
+              - listitem [ref=e279]:
+                - link "דרושים עורכי דין" [ref=e280] [cursor=pointer]:
+                  - /url: /jobs/cat14/
+              - listitem [ref=e281]:
+                - link "דרושים מדיה" [ref=e282] [cursor=pointer]:
+                  - /url: /jobs/cat15/
+              - listitem [ref=e283]:
+                - link "דרושים קמעונאות" [ref=e284] [cursor=pointer]:
+                  - /url: /jobs/cat33/
+              - listitem [ref=e285]:
+                - link "דרושים תחבורה" [ref=e286] [cursor=pointer]:
+                  - /url: /jobs/cat29/
+              - listitem [ref=e287]:
+                - link "דרושים רפואה" [ref=e288] [cursor=pointer]:
+                  - /url: /jobs/cat16/
+              - listitem [ref=e289]:
+                - link "דרושים שיווק" [ref=e290] [cursor=pointer]:
+                  - /url: /jobs/cat27/
+              - listitem [ref=e291]:
+                - link "דרושים שירות לקוחות" [ref=e292] [cursor=pointer]:
+                  - /url: /jobs/cat11/
+              - listitem [ref=e293]:
+                - link "דרושים אבטחה" [ref=e294] [cursor=pointer]:
+                  - /url: /jobs/cat25/
+              - listitem [ref=e295]:
+                - link "דרושים תיירות" [ref=e296] [cursor=pointer]:
+                  - /url: /jobs/cat31/
+              - listitem [ref=e297]:
+                - link "דרושים תעשייה" [ref=e298] [cursor=pointer]:
+                  - /url: /jobs/cat18/
+              - listitem [ref=e299]:
+                - link "הייטק כללי" [ref=e300] [cursor=pointer]:
+                  - /url: /jobs/cat5/
+              - listitem [ref=e301]:
+                - link "הייטק תוכנה" [ref=e302] [cursor=pointer]:
+                  - /url: /jobs/cat6/
+          - generic [ref=e303]:
+            - paragraph [ref=e304]: דרושים לפי אזורים
+            - list [ref=e305]:
+              - listitem [ref=e306]:
+                - link "דרושים בישראל" [ref=e307] [cursor=pointer]:
+                  - /url: /article/150/
+              - listitem [ref=e308]:
+                - link "דרושים תל אביב" [ref=e309] [cursor=pointer]:
+                  - /url: /jobs/area/1/
+              - listitem [ref=e310]:
+                - link "דרושים חולון" [ref=e311] [cursor=pointer]:
+                  - /url: /jobs/area/3/
+              - listitem [ref=e312]:
+                - link "דרושים ראשון לציון" [ref=e313] [cursor=pointer]:
+                  - /url: /jobs/area/4/
+              - listitem [ref=e314]:
+                - link "דרושים פתח תקווה" [ref=e315] [cursor=pointer]:
+                  - /url: /jobs/area/5/
+              - listitem [ref=e316]:
+                - link "דרושים ראש העין" [ref=e317] [cursor=pointer]:
+                  - /url: /jobs/area/9/
+              - listitem [ref=e318]:
+                - link "דרושים נתניה" [ref=e319] [cursor=pointer]:
+                  - /url: /jobs/area/10/
+              - listitem [ref=e320]:
+                - link "דרושים כפר סבא" [ref=e321] [cursor=pointer]:
+                  - /url: /jobs/area/11/
+              - listitem [ref=e322]:
+                - link "דרושים הרצליה" [ref=e323] [cursor=pointer]:
+                  - /url: /jobs/area/12/
+              - listitem [ref=e324]:
+                - link "דרושים הוד השרון" [ref=e325] [cursor=pointer]:
+                  - /url: /jobs/area/13/
+              - listitem [ref=e326]:
+                - link "דרושים חדרה" [ref=e327] [cursor=pointer]:
+                  - /url: /jobs/area/14/
+              - listitem [ref=e328]:
+                - link "דרושים חיפה" [ref=e329] [cursor=pointer]:
+                  - /url: /jobs/area/21/
+              - listitem [ref=e330]:
+                - link "דרושים קריות" [ref=e331] [cursor=pointer]:
+                  - /url: /jobs/area/22/
+              - listitem [ref=e332]:
+                - link "דרושים נהריה" [ref=e333] [cursor=pointer]:
+                  - /url: /jobs/area/23/
+              - listitem [ref=e334]:
+                - link "דרושים טבריה" [ref=e335] [cursor=pointer]:
+                  - /url: /jobs/area/25/
+              - listitem [ref=e336]:
+                - link "דרושים עפולה" [ref=e337] [cursor=pointer]:
+                  - /url: /jobs/area/26/
+          - generic [ref=e338]:
+            - paragraph [ref=e339]: דרושים לפי איזורים - המשך
+            - list [ref=e340]:
+              - listitem [ref=e341]:
+                - link "דרושים באר שבע" [ref=e342] [cursor=pointer]:
+                  - /url: /jobs/area/30/
+              - listitem [ref=e343]:
+                - link "דרושים אשקלון" [ref=e344] [cursor=pointer]:
+                  - /url: /jobs/area/31/
+              - listitem [ref=e345]:
+                - link "דרושים אילת" [ref=e346] [cursor=pointer]:
+                  - /url: /jobs/area/34/
+              - listitem [ref=e347]:
+                - link "דרושים ירושלים" [ref=e348] [cursor=pointer]:
+                  - /url: /jobs/area/18/
+              - listitem [ref=e349]:
+                - link "דרושים בית שמש" [ref=e350] [cursor=pointer]:
+                  - /url: /jobs/area/19/
+              - listitem [ref=e351]:
+                - link "דרושים מעלה אדומים" [ref=e352] [cursor=pointer]:
+                  - /url: /jobs/area/20/
+              - listitem [ref=e353]:
+                - link "דרושים אשדוד" [ref=e354] [cursor=pointer]:
+                  - /url: /jobs/area/15/
+              - listitem [ref=e355]:
+                - link "דרושים רחובות" [ref=e356] [cursor=pointer]:
+                  - /url: /jobs/area/16/
+              - listitem [ref=e357]:
+                - link "דרושים מרכז" [ref=e358] [cursor=pointer]:
+                  - /url: /jobs/area/1-2-3-4-5-6-7-8-9/
+              - listitem [ref=e359]:
+                - link "דרושים ירושלים" [ref=e360] [cursor=pointer]:
+                  - /url: /jobs/area/18-19-20/
+              - listitem [ref=e361]:
+                - link "דרושים יהודה ושומרון" [ref=e362] [cursor=pointer]:
+                  - /url: /jobs/area/36-37-38-39-40-41/
+              - listitem [ref=e363]:
+                - link "דרושים צפון" [ref=e364] [cursor=pointer]:
+                  - /url: /jobs/area/21-22-23-24-25-26-27-28-29/
+              - listitem [ref=e365]:
+                - link "דרושים דרום" [ref=e366] [cursor=pointer]:
+                  - /url: /jobs/area/30-31-32-33-34/
+              - listitem [ref=e367]:
+                - link "עבודות בחול" [ref=e368] [cursor=pointer]:
+                  - /url: /jobs/subcat/89/
+                  - text: עבודות בחו"ל
+          - generic [ref=e369]:
+            - paragraph [ref=e370]: חיפושים פופלריים
+            - list [ref=e371]:
+              - listitem [ref=e372]:
+                - link "עבודה מהבית" [ref=e373] [cursor=pointer]:
+                  - /url: /jobs/cat19/
+              - listitem [ref=e374]:
+                - link "יד 2" [ref=e375] [cursor=pointer]:
+                  - /url: /דרושים-1477861-קורל-תל/
+              - listitem [ref=e376]:
+                - link "בנק הפועלים" [ref=e377] [cursor=pointer]:
+                  - /url: /דרושים-23179-בנק-הפועלים/
+              - listitem [ref=e378]:
+                - link "אבטחה" [ref=e379] [cursor=pointer]:
+                  - /url: /jobs/cat25/
+              - listitem [ref=e380]:
+                - link "קוקה קולה" [ref=e381] [cursor=pointer]:
+                  - /url: /דרושים-5709-החברה-המרכזית-למכירות/
+              - listitem [ref=e382]:
+                - link "התעשייה האווירית" [ref=e383] [cursor=pointer]:
+                  - /url: /דרושים-183961-תעשייה-אווירית/
+              - listitem [ref=e384]:
+                - link "נהג עד 12 טון" [ref=e385] [cursor=pointer]:
+                  - /url: /jobs/subcat/461/
+              - listitem [ref=e386]:
+                - link "נהג מעל 15 טון" [ref=e387] [cursor=pointer]:
+                  - /url: /jobs/subcat/557/
+              - listitem [ref=e388]:
+                - link "סטודנטים" [ref=e389] [cursor=pointer]:
+                  - /url: /jobs/subcat/88/
+              - listitem [ref=e390]:
+                - link "דרושים נהגים" [ref=e391] [cursor=pointer]:
+                  - /url: /jobs/subcat/426/
+              - listitem [ref=e392]:
+                - link "קורות חיים" [ref=e393] [cursor=pointer]:
+                  - /url: /קורות-חיים/
+              - listitem [ref=e394]:
+                - link "טבלאות שכר" [ref=e395] [cursor=pointer]:
+                  - /url: /article/87/
+              - listitem [ref=e396]:
+                - link "מחשבון שכר" [ref=e397] [cursor=pointer]:
+                  - /url: /calculator/
+          - generic [ref=e398]:
+            - paragraph [ref=e399]: דרושים IL
+            - list [ref=e400]:
+              - listitem [ref=e401]:
+                - link "תקנון האתר" [ref=e402] [cursor=pointer]:
+                  - /url: /article/2/
+              - listitem [ref=e403]:
+                - link "מדיניות הפרטיות" [ref=e404] [cursor=pointer]:
+                  - /url: /article/103/
+              - listitem [ref=e405]:
+                - link "הסכם מעסיקים" [ref=e406] [cursor=pointer]:
+                  - /url: /article/151/
+              - listitem [ref=e407]:
+                - link "הצהרת נגישות" [ref=e408] [cursor=pointer]:
+                  - /url: /article/237/
+              - listitem [ref=e409]:
+                - link "כל החברות" [ref=e410] [cursor=pointer]:
+                  - /url: /companies.aspx/
+              - listitem [ref=e411]:
+                - link "חברות בישראל" [ref=e412] [cursor=pointer]:
+                  - /url: /article/247/
+              - listitem [ref=e413]:
+                - link "צור קשר" [ref=e414] [cursor=pointer]:
+                  - /url: /contactus.aspx/
+              - listitem [ref=e415]:
+                - link "עזרה" [ref=e416] [cursor=pointer]:
+                  - /url: /help.aspx/
+              - listitem [ref=e417]:
+                - link "בואו לעבוד אצלנו" [ref=e418] [cursor=pointer]:
+                  - /url: /דרושים-1055-פורטל-דרושים/
+              - listitem [ref=e419]:
+                - link "אודות" [ref=e420] [cursor=pointer]:
+                  - /url: /article/328/
+          - generic [ref=e421]:
+            - paragraph [ref=e422]: כתבות ומדריכים
+            - list [ref=e423]:
+              - listitem [ref=e424]:
+                - link "טבלאות שכר" [ref=e425] [cursor=pointer]:
+                  - /url: /article/87/
+              - listitem [ref=e426]:
+                - link "עבודה לנוער" [ref=e427] [cursor=pointer]:
+                  - /url: /article/191/
+              - listitem [ref=e428]:
+                - link "חיפוש עבודה" [ref=e429] [cursor=pointer]:
+                  - /url: /article/12/
+              - listitem [ref=e430]:
+                - link "אבטלה" [ref=e431] [cursor=pointer]:
+                  - /url: /article/171/
+              - listitem [ref=e432]:
+                - link "איך לכתוב קורות חיים" [ref=e433] [cursor=pointer]:
+                  - /url: /article/13/
+              - listitem [ref=e434]:
+                - link "איך להתכונן לראיון עבודה" [ref=e435] [cursor=pointer]:
+                  - /url: /article/44/
+              - listitem [ref=e436]:
+                - link "מכתב התפטרות לדוגמא" [ref=e437] [cursor=pointer]:
+                  - /url: /article/185/
+              - listitem [ref=e438]:
+                - link "קורות חיים באנגלית" [ref=e439] [cursor=pointer]:
+                  - /url: /article/157/
+              - listitem [ref=e440]:
+                - link "מכתב התפטרות" [ref=e441] [cursor=pointer]:
+                  - /url: /article/138/
+          - generic [ref=e443]:
+            - generic [ref=e444]:
+              - link "instagram מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e445] [cursor=pointer]:
+                - /url: https://instagram.com/drushim__il?igshid=NTc4MTIwNjQ2YQ==
+                - img "instagram" [ref=e446]
+              - link "linkedin מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e447] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/portal-drushim-israel/mycompany/?viewAsMember=true
+                - img "linkedin" [ref=e448]
+              - link "facebook מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e449] [cursor=pointer]:
+                - /url: https://www.facebook.com/drushim.co.il?mibextid=ZbWKwL
+                - img "facebook" [ref=e450]
+              - link "youtube מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e451] [cursor=pointer]:
+                - /url: https://www.youtube.com/@drushim
+                - img "youtube" [ref=e452]
+            - generic [ref=e453]:
+              - link "appstore מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e454] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D-il/id1180529703
+                - img "appstore" [ref=e455]
+              - link "googleplay מעבר לאתר חיצוני נפתח בכרטיסיה חדשה" [ref=e456] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=drushim.app
+                - img "googleplay" [ref=e457]
+      - paragraph [ref=e460]:
+        - text: דרושים IL - מגשימים 1, פתח תקווה. ליצירת קשר
+        - link "לחץ כאן" [ref=e461] [cursor=pointer]:
+          - /url: /contactus.aspx
+    - region "Cookie consent banner" [ref=e462]:
+      - button "סגור הודעת עוגיות" [ref=e463] [cursor=pointer]:
+        - img [ref=e464]
+      - generic [ref=e466]:
+        - heading "🍪 אוהבים עוגיות? גם אנחנו" [level=5] [ref=e467]
+        - paragraph [ref=e468]:
+          - text: אנחנו משתמשים בעוגיות (cookies) לשיפור חוויית הגלישה שלך, הצגת הצעות מותאמות ועוד. כמפורט
+          - link "במדיניות הפרטיות" [ref=e469] [cursor=pointer]:
+            - /url: https://www.drushim.co.il/article/103/
+          - text: שלנו.
+        - button "הבנתי" [ref=e471] [cursor=pointer]
+  - status
