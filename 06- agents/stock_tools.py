@@ -1,6 +1,7 @@
 import yfinance as yf
 import sqlite3
 from datetime import datetime, timedelta
+from agno.tools import tool
 
 # ── Config ──
 PRICE_DB = "tmp/stock_prices.db"
@@ -15,11 +16,12 @@ def init_price_db():
             ts TEXT, symbol TEXT, price REAL
         )
     """)
-    con.commit(); con.close()
+    con.commit(); 
+    con.close()
 
 # ── Tools ──
 def collect_and_summarize_stocks() -> str:
-    """Fetch current prices, save to DB, return 1-hour stats summary"""
+    """Fetch current prices, save to DB, return stats summary of last hour"""
     init_price_db()
     con = sqlite3.connect(PRICE_DB)
     ts = datetime.now().isoformat()
@@ -52,8 +54,16 @@ def collect_and_summarize_stocks() -> str:
     return "\n".join(lines)
 
 def write_to_log(content: str) -> str:
-    """Write analysis entry to log file"""
+    """Persist the analysis to the log file (a side effect, for record keeping)."""
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(LOG_FILE, "a") as f:
         f.write(f"\n[{ts}]\n{content}\n" + "-"*50)
     return "Log updated"
+
+@tool(stop_after_tool_call=True, show_result=True)
+def present_analysis(analysis: str) -> str:
+    """Present the final analysis to the user. This is the agent's LAST step.
+    The 'analysis' you pass here is exactly what the user sees, so it must be the
+    clean analysis only — no preamble or commentary, 3-5 sentences. Calling this
+    ends the run, so nothing is appended after it."""
+    return analysis

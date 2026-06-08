@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Analyst</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+        #result { margin-top: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 6px; white-space: pre-wrap; min-height: 60px; }
+        #status { margin-top: 10px; color: gray; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <h2>📈 Stock Analyst Agent</h2>
+    <button type="button" onclick="analyze(event)">נתח מניות עכשיו</button>
+    <div id="status"></div>
+    <div id="result"></div>
+
+    <script>
+        async function analyze(event) {
+            if (event) event.preventDefault();
+            const status = document.getElementById("status");
+            const result = document.getElementById("result");
+
+            status.textContent = "הסוכן מנתח...";
+            result.textContent = "";
+
+            const formData = new FormData();
+            formData.append("message", "Analyze stocks now.");
+            formData.append("stream", "false");
+
+            try {
+                console.log("[1] שולח בקשה לשרת...");
+                const response = await fetch("http://localhost:7777/agents/StockAnalyst/runs", {
+                    method: "POST",
+                    body: formData,
+                });
+
+                console.log("[2] התקבלה תגובה. status:", response.status, "ok:", response.ok);
+                if (!response.ok) {
+                    const text = await response.text();
+                    throw new Error("HTTP " + response.status + ": " + text);
+                }
+
+                const data = await response.json();
+                console.log("[3] גוף התשובה (object):", data);
+
+                // הסוכן מעביר את הניתוח הנקי כארגומנט לכלי present_analysis (חוזה התצוגה).
+                // קוראים אותו ישירות מהפלט המובנה — נקי, בלי טקסט פתיחה של המודל.
+                const presentTool = (data.tools || []).find(t => t.tool_name === "present_analysis");
+                const analysis = (presentTool && presentTool.tool_args && presentTool.tool_args.analysis) || data.content;
+                console.log("[3a] הניתוח הנקי =", analysis);
+
+                result.textContent = analysis || JSON.stringify(data, null, 2);
+                status.textContent = "ניתוח הושלם";
+                console.log("[4] עודכן המסך בהצלחה.");
+
+            } catch (err) {
+                console.error("[X] שגיאה:", err);
+                status.textContent = "שגיאה";
+                result.textContent = err.message;
+            }
+        }
+    </script>
+</body>
+</html>

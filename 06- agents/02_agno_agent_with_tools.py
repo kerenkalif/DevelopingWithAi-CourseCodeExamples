@@ -14,7 +14,6 @@ async def main():
             markdown=True,
         )
         response = await agent.arun(
-            #"What is the current weather in Tel Aviv right now?"
             "What is the current weather in my location now?"
         )
         print(response.content)

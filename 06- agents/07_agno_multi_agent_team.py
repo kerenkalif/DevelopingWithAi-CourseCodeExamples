@@ -57,9 +57,11 @@ team = Team(
     markdown=True,
 )
 
-'''team.print_response(
+team.print_response(
     "Find me a summer vacation destination with pleasant weather — not too hot, no rain.",
-    stream=True)'''
+    stream=True)
+
+pass
 
 response = team.run("Find me a summer vacation destination with pleasant weather — not too hot, no rain.")
 print(response.content)

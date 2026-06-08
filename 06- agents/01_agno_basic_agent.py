@@ -8,6 +8,5 @@ agent = Agent(
     markdown=True,
 )
 
-#agent.print_response("Is Tel Aviv hot in summer? What should I wear?", stream=True)
 response = agent.run("Is Tel Aviv hot in summer? What should I wear?")
 print(response.content)
