@@ -1,17 +1,17 @@
-# 13 - CrewAI - Agent + Task + Crew (methodology demo)
+# 14 - CrewAI - Agent + Task + Crew (methodology demo)
 # Library: crewai
 # What it does: A single weather analyst agent finds the best summer destination in Europe.
 #               Demonstrates the 3-object CrewAI pattern: Agent → Task → Crew.
-# pip install crewai openai requests
+# pip install crewai requests
 
-from crewai import Agent, Task, Crew, Process
-from crewai_tools import tool
-from secret_key import openai_key
-import os
+from crewai import Agent, Task, Crew, Process, LLM
+from crewai.tools import tool
 import requests
 
-os.environ["OPENAI_API_KEY"] = openai_key
-
+# CrewAI's default model is OpenAI (gpt-4) - here we use Claude instead.
+# The model string format is "anthropic/<model-id>" (CrewAI uses litellm),
+# and the ANTHROPIC_API_KEY is read from the environment.
+llm = LLM(model="anthropic/claude-sonnet-4-6")
 
 @tool("WeatherTool")
 def get_weather(city: str) -> str:
@@ -27,6 +27,7 @@ weather_agent = Agent(
     backstory="You have 10 years of experience analyzing climate data "
               "and advising travelers on the best destinations.",
     tools=[get_weather],
+    llm=llm,
     verbose=True,
 )
 
@@ -47,3 +48,5 @@ crew = Crew(
 
 result = crew.kickoff()
 print(result)
+print("----------------------")
+print(result.raw)

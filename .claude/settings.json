@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -i -X OPTIONS \"http://localhost:7777/agents/StockAnalyst/runs\" -H \"Origin: http://127.0.0.1:5500\" -H \"Access-Control-Request-Method: POST\" --max-time 15)",
+      "Bash(curl -s -D - -o /dev/null -X POST \"http://localhost:7777/agents/StockAnalyst/runs\" -H \"Origin: http://127.0.0.1:5500\" -F \"message=hi\" -F \"stream=false\" --max-time 90)",
+      "mcp__claude_ai_Context7__query-docs"
+    ]
+  }
+}

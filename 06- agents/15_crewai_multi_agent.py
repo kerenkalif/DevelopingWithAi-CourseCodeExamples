@@ -4,15 +4,15 @@
 #               report_writer writes a markdown report saved to a file.
 # pip install crewai openai requests
 
-from crewai import Agent, Task, Crew, Process
+from crewai import Agent, Task, Crew, Process, LLM
 from crewai.tools import BaseTool
 from pydantic import Field
-from secret_key import openai_key
-import os
 import requests
 
-os.environ["OPENAI_API_KEY"] = openai_key
-
+# CrewAI's default model is OpenAI (gpt-4) - here we use Claude instead.
+# The model string format is "anthropic/<model-id>" (CrewAI uses litellm),
+# and the ANTHROPIC_API_KEY is read from the environment.
+llm = LLM(model="anthropic/claude-sonnet-4-6")
 
 class WeatherTool(BaseTool):
     name: str = "Weather Tool"
@@ -28,6 +28,7 @@ weather_agent = Agent(
     goal="Collect accurate current weather data for multiple cities",
     backstory="Specialist in gathering and validating real-time weather data.",
     tools=[WeatherTool()],
+    llm=llm,
     verbose=True,
 )
 
@@ -35,12 +36,13 @@ report_writer = Agent(
     role="Travel Report Writer",
     goal="Write clear and engaging travel weather reports",
     backstory="Experienced travel writer who turns data into compelling recommendations.",
+    llm=llm,
     verbose=True,
 )
 
 task1 = Task(
-    description="Get current weather for: Tel Aviv, Barcelona, Amsterdam, Vienna, Lisbon.",
-    expected_output="Weather data for all 5 cities: temperature, conditions, humidity.",
+    description="Get current weather for: Tel Aviv, Barcelona, Amsterdam.",
+    expected_output="Weather data for all 3 cities: temperature, conditions, humidity.",
     agent=weather_agent,
 )
 
@@ -61,5 +63,4 @@ crew = Crew(
 
 result = crew.kickoff()
 print(result)
-print("
-Report saved to: weather_report.md")
+print("Report saved to: weather_report.md")

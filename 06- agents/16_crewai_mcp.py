@@ -6,13 +6,14 @@
 #
 # REQUIRES: weather_mcp_server.py in the same folder (see below)
 
-from crewai import Agent, Task, Crew, Process
+from crewai import Agent, Task, Crew, Process, LLM
 from crewai_tools import MCPServerAdapter
 from mcp import StdioServerParameters
-from secret_key import openai_key
-import os
 
-os.environ["OPENAI_API_KEY"] = openai_key
+# CrewAI's default model is OpenAI (gpt-4) - here we use Claude instead.
+# The model string format is "anthropic/<model-id>" (CrewAI uses litellm),
+# and the ANTHROPIC_API_KEY is read from the environment.
+llm = LLM(model="anthropic/claude-sonnet-4-6")
 
 server_params = StdioServerParameters(
     command="python",
@@ -25,6 +26,7 @@ with MCPServerAdapter([server_params]) as tools:
         goal="Answer weather queries using the MCP weather server",
         backstory="Expert in weather data analysis.",
         tools=tools,
+        llm=llm,
         verbose=True,
     )
 
