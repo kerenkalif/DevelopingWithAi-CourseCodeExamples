@@ -17,7 +17,7 @@ llm = LLM(model="anthropic/claude-sonnet-4-6")
 
 server_params = StdioServerParameters(
     command="python",
-    args=["weather_mcp_server.py"],   # our MCP server
+    args=["my_weather_mcp_server.py"],   # our MCP server
 )
 
 with MCPServerAdapter([server_params]) as tools:

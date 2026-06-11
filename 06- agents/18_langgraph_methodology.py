@@ -1,16 +1,14 @@
 # 18 - LangGraph - Methodology (State + Nodes + Edges)
-# Library: langgraph, langchain-openai
+# Library: langgraph, requests
 # What it does: Minimal graph — one node checks weather for a city stored in State.
 #               Demonstrates the 4 core concepts: State, Node, Edge, Graph.
-# pip install langgraph langchain-openai requests
+#               No LLM here — LangGraph is provider-agnostic; this example needs no API key.
+# pip install langgraph requests
 
 from typing import TypedDict
 from langgraph.graph import StateGraph, START, END
-from secret_key import openai_key
 import os
 import requests
-
-os.environ["OPENAI_API_KEY"] = openai_key
 
 
 # 1. State — shared data that flows through all nodes
